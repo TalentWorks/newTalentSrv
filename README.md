@@ -11,9 +11,17 @@ REST API for Talent Service
 The module takes the following configuration:
 
     {
-      "instancesPerCore": 4,
+      "instancesPerCore": 1,
       "router": {
-        "host": "0.0.0.0",
-        "port": 8080
+          "host": "0.0.0.0",
+          "port": 8080
+      },
+      "mongodb": {
+        "address": "vertx.mongopersistor",
+        "host": <mongodb host>,
+        "port": <mongodb port>,
+        "username": <mongodb user>,
+        "password": <mongodb password>,
+        "db_name": <mongodb db name>
       }
     }
