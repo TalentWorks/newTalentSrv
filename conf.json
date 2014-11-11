@@ -5,6 +5,14 @@
       "port": 8080
   },
   "marketService": {
-    "dataFile": "markets.json"
+    "dataFile": "users.json"
+  },
+  "mongodb": {
+    "address": "vertx.mongopersistor",
+    "host": "ds051170.mongolab.com",
+    "port": 51170,
+    "username": "talent_srv",
+    "password": "Hello1313",
+    "db_name": "talent_test"
   }
 }

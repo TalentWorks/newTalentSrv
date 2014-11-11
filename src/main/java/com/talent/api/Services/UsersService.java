@@ -10,7 +10,7 @@ import org.vertx.java.platform.Verticle;
 import java.util.*;
 import java.util.stream.Collectors;
 
-public class MarketsService extends Verticle {
+public class UsersService extends Verticle {
   Logger log;
 
   Map<String, Map<String, Object>> marketMap = new TreeMap<>();

@@ -6,9 +6,9 @@ import org.vertx.java.core.eventbus.Message;
 import org.vertx.java.core.json.JsonElement;
 import org.vertx.java.core.json.JsonObject;
 
-public class MarketsController extends AbstractController {
+public class UsersController extends AbstractController {
 
-  public MarketsController(Vertx vertx) {
+  public UsersController(Vertx vertx) {
     super(vertx);
   }
 

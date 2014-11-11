@@ -1,20 +1,5 @@
 {
-
-  // Java verticle
-  "main":"com.godaddy.api.markets.AppStart",
-
-
-  // If your module is going to be registered in the Vert.x module registry you will also need the following
-  // mandatory fields
-  /*"description":"Put description of your module here",
-  "licenses": ["The Apache Software License Version 2.0"],
-  "author": "Go Daddy",
-
-  // Optional fields
-  "developers": ["Other Dev 1", "Other Dev 2"],
-  "keywords": ["apid", "other-keyword"],
-  "homepage": "url to your git repo",*/
-
+  "main":"com.talent.api.AppStart",
+  "includes":"io.vertx~mod-mongo-persistor~2.1.1",
   "auto-redeploy": true
-
 }

@@ -22,7 +22,8 @@ public class AppStart extends Verticle {
     log.info("AppStart: Starting with config:\n" + config.encodePrettily());
     log.info("AppStart: Number of instances: " + numInstances);
 
-    container.deployVerticle("com.godaddy.api.markets.HttpRouter", config.getObject("router"), numInstances);
-    container.deployVerticle("com.godaddy.api.markets.Services.MarketsService", config.getObject("marketService"), numInstances);
+    container.deployVerticle("com.talent.api.HttpRouter", config.getObject("router"), numInstances);
+    container.deployVerticle("com.talent.api.Services.UsersService", config.getObject("userService"), numInstances);
+    container.deployModule("io.vertx~mod-mongo-persistor~2.1.1", config.getObject("mongodb"));
   }
 }

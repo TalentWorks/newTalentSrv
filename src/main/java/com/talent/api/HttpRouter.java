@@ -1,12 +1,14 @@
 package com.talent.api;
 
-import com.talent.api.Controllers.IController;
-import com.talent.api.Controllers.MarketsController;
 import com.jetdrone.vertx.yoke.Yoke;
-//import com.jetdrone.vertx.yoke.extras.middleware.Cors;
+import com.jetdrone.vertx.yoke.extras.middleware.Cors;
 import com.jetdrone.vertx.yoke.middleware.*;
+import com.talent.api.Controllers.IController;
+import com.talent.api.Controllers.UsersController;
 import org.vertx.java.core.json.JsonObject;
 import org.vertx.java.platform.Verticle;
+
+//import com.jetdrone.vertx.yoke.extras.middleware.Cors;
 
 public class HttpRouter extends Verticle {
   public void start() {
@@ -14,15 +16,15 @@ public class HttpRouter extends Verticle {
         .use(new ErrorHandler(false))                     // Handle errors. See http://pmlopes.github.io/yoke/ErrorHandler.html
         .use(new Limit(4096))                             // Limit size of request body
 //        .use(new Compress())                              // Enable gzip compression - Disabled due to a Yoke bug
-//        .use(new Cors(null, null, null, null, false))     // Enable CORS for all origins
+        .use(new Cors(null, null, null, null, false))     // Enable CORS for all origins
         .use(new Logger())                                // Log requests
         .use(new BodyParser());                           // Parse request body
 
-    IController controller = new MarketsController(vertx);
+    IController controller = new UsersController(vertx);
 
     yoke.use(new Router()
-            .all("/v1/pl/:plid/markets", controller::handleCollection)
-            .all("/v1/pl/:plid/markets/:id", controller::handleItem)
+            .all("/api/users", controller::handleCollection)
+            .all("/api/users/:id", controller::handleItem)
     );
 
     yoke.listen(getPort(), getHost());
