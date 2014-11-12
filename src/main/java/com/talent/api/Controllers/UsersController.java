@@ -14,17 +14,16 @@ public class UsersController extends AbstractController {
 
   @Override
   public void getItem(YokeRequest request) {
-    JsonObject jsonMsg = new JsonObject()
-        .putString("plid", request.params().get("plid"))
-        .putString("id", request.params().get("id"));
+    JsonObject jsonMsg = new JsonObject();
+    jsonMsg.putString("id", request.params().get("id"));
 
-    eventBus.send("marketservice.getItem", jsonMsg, (Message<JsonObject> jsonResponse) -> {
-          JsonElement responseElement = jsonResponse.body().getElement("results");
-          if (responseElement == null) {
+    eventBus.send("UsersService.GetItem", jsonMsg, (Message<JsonObject> jsonResponse) -> {
+          JsonElement results = jsonResponse.body().getElement("result");
+          if (results == null) {
             request.response().setStatusCode(404).end();
           } else {
             request.response().headers().set("Content-Type", "application/json");
-            String response = responseElement.asObject().encode();
+            String response = results.asObject().encode();
             request.response().end(response);
           }
         }
@@ -32,17 +31,38 @@ public class UsersController extends AbstractController {
   }
 
   public void getCollection(YokeRequest request) {
-    JsonObject jsonMsg = new JsonObject()
-        .putString("plid", request.params().get("plid"))
-        .putString("country", request.params().get("country"))
-        .putString("subdomain", request.params().get("subdomain"));
+    JsonObject jsonMsg = new JsonObject();
+    jsonMsg
+        .putString("action", "find")
+        .putString("collection", "User");
 
-    eventBus.send("marketservice.getCollection", jsonMsg, (Message<JsonObject> jsonResponse) -> {
-          JsonElement responseElement = jsonResponse.body().getElement("results");
+    eventBus.send("UsersService.GetCollection", jsonMsg, (Message<JsonObject> jsonResponse) -> {
+          JsonElement results = jsonResponse.body().getElement("results");
           request.response().headers().set("Content-Type", "application/json");
-          String response = responseElement.asArray().encode();
+          String response = results.asArray().encode();
           request.response().end(response);
         }
     );
   }
+
+  @Override
+  public void post(YokeRequest request) {
+    JsonObject jsonMsg = new JsonObject();
+    JsonObject document = request.body();
+    jsonMsg.putObject("document", document);
+
+    eventBus.send("UsersService.CreateItem", jsonMsg, (Message<JsonObject> jsonResponse) -> {
+          JsonElement results = jsonResponse.body().getElement("results");
+          if (results == null) {
+            request.response().setStatusCode(404).end();
+          } else {
+            request.response().headers().set("Content-Type", "application/json");
+            String response = results.asObject().encode();
+            request.response().end(response);
+          }
+        }
+    );
+  }
+
+
 }

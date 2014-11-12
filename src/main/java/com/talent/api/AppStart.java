@@ -22,8 +22,12 @@ public class AppStart extends Verticle {
     log.info("AppStart: Starting with config:\n" + config.encodePrettily());
     log.info("AppStart: Number of instances: " + numInstances);
 
+    vertx.eventBus().setDefaultReplyTimeout(1000);
+
     container.deployVerticle("com.talent.api.HttpRouter", config.getObject("router"), numInstances);
     container.deployVerticle("com.talent.api.Services.UsersService", config.getObject("userService"), numInstances);
-    container.deployModule("io.vertx~mod-mongo-persistor~2.1.1", config.getObject("mongodb"));
+    container.deployModule("io.vertx~mod-mongo-persistor~2.1.1", config.getObject("mongodb"), deploymentId -> {
+      log.info("Mongo-Persistor deployed with result: " + deploymentId.result());
+    });
   }
 }

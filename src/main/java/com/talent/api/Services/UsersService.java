@@ -2,136 +2,92 @@ package com.talent.api.Services;
 
 import org.vertx.java.core.eventbus.EventBus;
 import org.vertx.java.core.eventbus.Message;
-import org.vertx.java.core.json.JsonArray;
 import org.vertx.java.core.json.JsonObject;
 import org.vertx.java.core.logging.Logger;
 import org.vertx.java.platform.Verticle;
 
-import java.util.*;
-import java.util.stream.Collectors;
-
 public class UsersService extends Verticle {
   Logger log;
-
-  Map<String, Map<String, Object>> marketMap = new TreeMap<>();
-  JsonArray marketJsonArray;
 
   public void start() {
     log = container.logger();
 
-    getMarketsFromFile();
-
     EventBus eventBus = vertx.eventBus();
 
-    eventBus.registerHandler("marketservice.getItem",
+    eventBus.registerHandler("UsersService.GetItem",
+        (Message<JsonObject> jsonMsg) -> {
+          JsonObject body = jsonMsg.body();
+          JsonObject mongoReq = new JsonObject();
+          mongoReq
+              .putString("action", "findone")
+              .putString("collection", "User")
+              .putObject("matcher", new JsonObject("{\"_id\":\"" + body.getString("id") + "\"}"));
+
+          eventBus.send("vertx.mongopersistor", mongoReq, (Message<JsonObject> mongoResp) -> {
+                JsonObject resp = mongoResp.body();
+
+                body.putString("status", resp.getString("status"));
+
+                if (!"ok".equalsIgnoreCase(resp.getString("status"))) {
+                  body.putString("message", resp.getString("message"));
+                } else {
+                  body.putObject("result", resp.getObject("result"));
+                }
+                jsonMsg.reply(body);
+              }
+          );
+        }
+    );
+
+    eventBus.registerHandler("UsersService.GetCollection",
         (Message<JsonObject> jsonMsg) -> {
           JsonObject body = jsonMsg.body();
 
-          if (marketJsonArray == null) {
-            body.putString("error", "No market data");
-            body.putString("errorLevel", "Fatal");
-            jsonMsg.reply(body);
-            return;
-          }
+          JsonObject mongoReq = new JsonObject();
+          mongoReq
+              .putString("action", "find")
+              .putString("collection", "User");
 
-          String id = body.getString("id");
-          String country = body.getString("country");
-          String subdomain = body.getString("subdomain");
+          eventBus.send("vertx.mongopersistor", mongoReq, (Message<JsonObject> mongoResp) -> {
+                JsonObject resp = mongoResp.body();
 
-          body.putObject("results", queryByMarketId(id));
+                body.putString("status", resp.getString("status"));
 
-          jsonMsg.reply(body);
+                if (!"ok".equalsIgnoreCase(resp.getString("status"))) {
+                  body.putString("message", resp.getString("message"));
+                } else {
+                  body.putArray("results", resp.getArray("results"));
+                }
+                jsonMsg.reply(body);
+              }
+          );
         }
     );
 
-    eventBus.registerHandler("marketservice.getCollection",
+    eventBus.registerHandler("UsersService.CreateItem",
         (Message<JsonObject> jsonMsg) -> {
           JsonObject body = jsonMsg.body();
 
-          if (marketJsonArray == null) {
-            body.putString("error", "No market data");
-            body.putString("errorLevel", "Fatal");
-            jsonMsg.reply(body);
-            return;
-          }
+          JsonObject mongoReq = new JsonObject();
+          mongoReq
+              .putString("action", "save")
+              .putString("collection", "User")
+              .putObject("document", body.getObject("document"));
 
-          String country = body.getString("country");
-          String subdomain = body.getString("subdomain");
+          eventBus.send("vertx.mongopersistor", mongoReq, (Message<JsonObject> mongoResp) -> {
+                JsonObject resp = mongoResp.body();
 
-          if (country != null) {
-            body.putArray("results", queryByCountry(country));
-          } else if (subdomain != null) {
-            body.putArray("results", queryBySubdomain(subdomain));
-          } else {
-            body.putArray("results", marketJsonArray);
-          }
+                body.putString("status", resp.getString("status"));
 
-          jsonMsg.reply(body);
+                if (!"ok".equalsIgnoreCase(resp.getString("status"))) {
+                  body.putString("message", resp.getString("message"));
+                } else {
+                  body.putObject("results", new JsonObject().putString("_id", resp.getString("_id")));
+                }
+                jsonMsg.reply(body);
+              }
+          );
         }
     );
-  }
-
-  private void getMarketsFromFile() {
-    String dataFile = getMarketDataFileName();
-
-    vertx.fileSystem().readFile(dataFile, ar -> {
-      if (ar.succeeded()) {
-        parseMarketData(ar.result().toString());
-      } else {
-        log.error("Failed to read", ar.cause());
-      }
-    });
-  }
-
-  private String getMarketDataFileName() {
-    JsonObject config = container.config();
-
-    String dataFile = config.getString("dataFile");
-    if (dataFile == null) {
-      return "markets.json";
-    }
-
-    return dataFile;
-  }
-
-  private void parseMarketData(String jsonData) {
-    marketJsonArray = new JsonArray(jsonData);
-
-    marketJsonArray.forEach(
-        market -> {
-          JsonObject marketObject = (JsonObject) market;
-          marketMap.put(marketObject.getString("id").toLowerCase(), marketObject.toMap());
-        }
-    );
-  }
-
-  private JsonObject queryByMarketId(String id) {
-    if (id == null) return null;
-
-    Map<String, Object> market = marketMap.get(id.toLowerCase());
-
-    if (market == null) {
-      return null;
-    }
-
-    return new JsonObject(market);
-  }
-
-  private JsonArray queryByCountry(String country) {
-    return queryByStringProperty("country", country);
-  }
-
-  private JsonArray queryBySubdomain(String subdomain) {
-    return queryByStringProperty("subdomain", subdomain);
-  }
-
-  private JsonArray queryByStringProperty(String propertyName, String propertyValue) {
-    if (propertyName == null || propertyValue == null) return null;
-
-    List<Map<String, Object>> list = marketMap.values().stream()
-        .filter(market -> propertyValue.equalsIgnoreCase((String) market.get(propertyName)))
-        .collect(Collectors.toList());
-
-    return new JsonArray(list);
   }
 }
