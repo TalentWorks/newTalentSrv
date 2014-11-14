@@ -1,5 +1,5 @@
 {
   "main":"com.talent.api.AppStart",
-  "includes":"io.vertx~mod-mongo-persistor~2.1.1, io.vertx~mod-auth-mgr~2.0.0-final",
+  "includes":"io.vertx~mod-mongo-persistor~2.1.1, com.campudus~json-schema-validator_2.11~1.2.0",
   "auto-redeploy": true
 }

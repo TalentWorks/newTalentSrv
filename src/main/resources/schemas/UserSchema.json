@@ -1,0 +1,46 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Json representation of a user",
+  "description": "User properties",
+  "type": "object",
+  "properties": {
+    "_id": {
+      "type": "integer"
+    },
+    "firstName": {
+      "type": "string"
+    },
+    "middleName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "dateOfBirth": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "primaryEmail": {
+      "type": "string",
+      "format": "email"
+    },
+    "password": {
+      "description": "Password must start with a letter, contain at least 4 and no more than 15 characters. Only letters, numbers, and underscore may be used",
+      "type": "string",
+      "pattern": "^[a-zA-Z]\\w{3,14}$"
+    },
+    "interests": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    }
+  },
+  "required": [
+    "firstName",
+    "lastName",
+    "primaryEmail"
+  ]
+}

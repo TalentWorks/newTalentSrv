@@ -18,6 +18,7 @@ public class HttpRouter extends Verticle {
 //        .use(new Compress())                              // Enable gzip compression - Disabled due to a Yoke bug
         .use(new Cors(null, null, null, null, false))     // Enable CORS for all origins
         .use(new Logger())                                // Log requests
+//        .use(new BasicAuth(new BasicAuthenticationHandler()::handle))
         .use(new BodyParser());                           // Parse request body
 
     IController controller = new UsersController(vertx);

@@ -26,8 +26,13 @@ public class AppStart extends Verticle {
 
     container.deployVerticle("com.talent.api.HttpRouter", config.getObject("router"), numInstances);
     container.deployVerticle("com.talent.api.Services.UsersService", config.getObject("userService"), numInstances);
-    container.deployModule("io.vertx~mod-mongo-persistor~2.1.1", config.getObject("mongodb"), deploymentId -> {
-      log.info("Mongo-Persistor deployed with result: " + deploymentId.result());
+    container.deployModule("com.campudus~json-schema-validator_2.11~1.2.0", config.getObject("jsonValidator"), deploymentId -> {
+      if(deploymentId.failed()) {
+        log.error("Json-Validator failed to deploy: " + deploymentId.cause().toString());
+      } else {
+        log.info("Json-Validator deployed with result: " + deploymentId.result());
+      }
     });
+    container.deployModule("io.vertx~mod-mongo-persistor~2.1.1", config.getObject("mongodb"), deploymentId -> log.info("Mongo-Persistor deployed with result: " + deploymentId.result()));
   }
 }
