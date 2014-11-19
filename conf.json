@@ -24,7 +24,7 @@
           "type": "object",
           "properties": {
             "_id": {
-              "type": "integer"
+              "type": "string"
             },
             "firstName": {
               "type": "string"
@@ -55,6 +55,9 @@
               },
               "minItems": 0,
               "uniqueItems": true
+            },
+            "address": {
+              "$ref": "vertxjsonschema://AddressSchema"
             }
           },
           "required": [
@@ -62,6 +65,43 @@
             "lastName",
             "primaryEmail"
           ]
+        }
+      },
+      {
+        "key": "AddressSchema",
+        "schema": {
+          "$schema": "http://json-schema.org/draft-04/schema#",
+          "title": "Json representation of an Address",
+          "description": "Address properties",
+          "type": "object",
+          "properties": {
+            "street1": {
+              "type": "string",
+               "maxLength": 50
+            },
+            "street2": {
+              "type": "string",
+              "maxLength": 50
+            },
+            "city": {
+              "type": "string",
+              "maxLength": 50
+            },
+            "state": {
+              "type": "string",
+              "minLength": 2,
+              "maxLength": 50
+            },
+            "postalCode": {
+              "type": "string",
+              "minLength": 2,
+              "maxLength": 10
+            },
+            "country": {
+              "type": "string",
+              "maxLength": 50
+            }
+          }
         }
       }
     ]

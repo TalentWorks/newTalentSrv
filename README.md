@@ -152,51 +152,94 @@ Where *&lt;token>* contains the Base64 encoded user's credentials (See [RFC 2617
 The API uses [json-schema](http://json-schema.org/) to specify the list of accepted attributes for a resource and define the constrains on them.
 ## User Schema
 
-    {
-      "$schema": "http://json-schema.org/draft-04/schema#",
-      "title": "Json representation of a user",
-      "description": "User properties",
-      "type": "object",
-      "properties": {
-        "_id": {
-          "type": "integer"
-        },
-        "firstName": {
-          "type": "string"
-        },
-        "middleName": {
-          "type": "string"
-        },
-        "lastName": {
-          "type": "string"
-        },
-        "dateOfBirth": {
-          "type": "string",
-          "format": "date-time"
-        },
-        "primaryEmail": {
-          "type": "string",
-          "format": "email"
-        },
-        "password": {
-          "description": "Password must start with a letter, contain at least 4 and no more than 15 characters. Only letters, numbers, and underscore may be used",
-          "type": "string",
-          "pattern": "^[a-zA-Z]\\w{3,14}$"
-        },
-        "interests": {
-          "type": "array",
-          "items": {
-            "type": "string"
+    [
+      {
+        "key": "UserSchema",
+        "schema": {
+          "$schema": "http://json-schema.org/draft-04/schema#",
+          "title": "Json representation of a user",
+          "description": "User properties",
+          "type": "object",
+          "properties": {
+            "_id": {
+              "type": "string"
+            },
+            "firstName": {
+              "type": "string"
+            },
+            "middleName": {
+              "type": "string"
+            },
+            "lastName": {
+              "type": "string"
+            },
+            "dateOfBirth": {
+              "type": "string",
+              "format": "date-time"
+            },
+            "primaryEmail": {
+              "type": "string",
+              "format": "email"
+            },
+            "password": {
+              "description": "Password must start with a letter, contain at least 4 and no more than 15 characters. Only letters, numbers, and underscore may be used",
+              "type": "string",
+              "pattern": "^[a-zA-Z]\\w{3,14}$"
+            },
+            "interests": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "minItems": 0,
+              "uniqueItems": true
+            },
+            "address": {
+              "$ref": "vertxjsonschema://AddressSchema"
+            }
           },
-          "minItems": 0,
-          "uniqueItems": true
+          "required": [
+            "firstName",
+            "lastName",
+            "primaryEmail"
+          ]
         }
       },
-      "required": [
-        "firstName",
-        "lastName",
-        "primaryEmail"
-      ]
-    }
-
-
+      {
+        "key": "AddressSchema",
+        "schema": {
+          "$schema": "http://json-schema.org/draft-04/schema#",
+          "title": "Json representation of an Address",
+          "description": "Address properties",
+          "type": "object",
+          "properties": {
+            "street1": {
+              "type": "string",
+               "maxLength": 50
+            },
+            "street2": {
+              "type": "string",
+              "maxLength": 50
+            },
+            "city": {
+              "type": "string",
+              "maxLength": 50
+            },
+            "state": {
+              "type": "string",
+              "minLength": 2,
+              "maxLength": 50
+            },
+            "postalCode": {
+              "type": "string",
+              "minLength": 2,
+              "maxLength": 10
+            },
+            "country": {
+              "type": "string",
+              "maxLength": 50
+            }
+          }
+        }
+      }
+    ]
