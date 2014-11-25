@@ -24,11 +24,25 @@ public class HttpRouter extends Verticle {
     IController controller = new UsersController(vertx);
 
     yoke.use(new Router()
-            .all("/api/users", controller::handleCollection)
-            .all("/api/users/:id", controller::handleItem)
+      .all("/api/users", controller::handleCollection)
+      .all("/api/users/:id", controller::handleItem)
+      .get("/docs", req -> {
+          String file = "";
+          if (req.path().equals("/docs/")) {
+            file = "index.html";
+          } else if (!req.path().contains("..")) {
+            file = req.path();
+          }
+          req.response().sendFile("web/" + file);
+        }
+      )
     );
 
-    yoke.listen(getPort(), getHost());
+    yoke.listen(
+
+        getPort(), getHost
+
+            ());
   }
 
   private String getHost() {
@@ -45,7 +59,7 @@ public class HttpRouter extends Verticle {
   private int getPort() {
     JsonObject config = container.config();
     Number numPort = config.getNumber("port");
-    if (numPort ==  null || numPort.intValue() <1) {
+    if (numPort == null || numPort.intValue() < 1) {
       return 8080;
     }
 

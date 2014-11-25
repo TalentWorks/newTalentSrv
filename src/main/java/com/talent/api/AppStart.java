@@ -25,6 +25,7 @@ public class AppStart extends Verticle {
     vertx.eventBus().setDefaultReplyTimeout(1000);
 
     container.deployVerticle("com.talent.api.HttpRouter", config.getObject("router"), numInstances);
+    container.deployVerticle("com.talent.api.Swagger", config.getObject("swagger"), 1);
     container.deployVerticle("com.talent.api.Services.UsersService", config.getObject("userService"), numInstances);
     container.deployModule("com.campudus~json-schema-validator_2.11~1.2.0", config.getObject("jsonValidator"), deploymentId -> {
       if(deploymentId.failed()) {
