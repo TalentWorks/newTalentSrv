@@ -48,6 +48,18 @@ public class UsersService extends Verticle {
               .putString("action", "find")
               .putString("collection", "User");
 
+          JsonObject matcher = body.getObject("filter");
+
+          if (matcher != null) {
+            mongoReq.putObject("matcher", matcher);
+          }
+
+          JsonObject keys = body.getObject("include");
+
+          if (keys != null) {
+            mongoReq.putObject("keys", keys);
+          }
+
           eventBus.send("vertx.mongopersistor", mongoReq, (Message<JsonObject> mongoResp) -> {
                 JsonObject resp = mongoResp.body();
 

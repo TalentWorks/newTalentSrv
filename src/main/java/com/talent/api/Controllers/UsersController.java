@@ -37,6 +37,18 @@ public class UsersController extends AbstractController {
         .putString("action", "find")
         .putString("collection", "User");
 
+    String filter = request.params().get("query");
+    if (filter == null) {
+      filter = "{}";
+    }
+    jsonMsg.putObject("filter", new JsonObject(filter));
+
+    String include = request.params().get("keys");
+    if (include == null) {
+      include = "{}";
+    }
+    jsonMsg.putObject("include", new JsonObject(include));
+
     eventBus.send("UsersService.GetCollection", jsonMsg, (Message<JsonObject> jsonResponse) -> {
           JsonElement results = jsonResponse.body().getElement("results");
           request.response().headers().set("Content-Type", "application/json");

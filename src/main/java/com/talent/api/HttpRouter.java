@@ -26,23 +26,9 @@ public class HttpRouter extends Verticle {
     yoke.use(new Router()
       .all("/api/users", controller::handleCollection)
       .all("/api/users/:id", controller::handleItem)
-      .get("/docs", req -> {
-          String file = "";
-          if (req.path().equals("/docs/")) {
-            file = "index.html";
-          } else if (!req.path().contains("..")) {
-            file = req.path();
-          }
-          req.response().sendFile("web/" + file);
-        }
-      )
     );
 
-    yoke.listen(
-
-        getPort(), getHost
-
-            ());
+    yoke.listen(getPort(), getHost());
   }
 
   private String getHost() {
