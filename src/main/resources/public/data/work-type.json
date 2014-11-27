@@ -1,0 +1,299 @@
+{
+  "work-type": [
+    {
+      "Id": 1,
+      "Name": "Actors",
+      "Position": ""
+    },
+    {
+      "Id": 2,
+      "Name": "Birthday Parties",
+      "Position": ""
+    },
+    {
+      "Id": 3,
+      "Name": "Cabaret & Variety",
+      "Position": ""
+    },
+    {
+      "Id": 4,
+      "Name": "Children",
+      "Position": ""
+    },
+    {
+      "Id": 5,
+      "Name": "College talent Buyers",
+      "Position": ""
+    },
+    {
+      "Id": 6,
+      "Name": "Comedy & Improv",
+      "Position": ""
+    },
+    {
+      "Id": 7,
+      "Name": "Commercial",
+      "Position": ""
+    },
+    {
+      "Id": 8,
+      "Name": "Commercials & Industrials",
+      "Position": ""
+    },
+    {
+      "Id": 9,
+      "Name": "Competitions",
+      "Position": ""
+    },
+    {
+      "Id": 10,
+      "Name": "Corporate Entertainment",
+      "Position": ""
+    },
+    {
+      "Id": 11,
+      "Name": "Cruise Lines",
+      "Position": ""
+    },
+    {
+      "Id": 12,
+      "Name": "Dancers",
+      "Position": ""
+    },
+    {
+      "Id": 13,
+      "Name": "Dancers & Choreographers",
+      "Position": ""
+    },
+    {
+      "Id": 14,
+      "Name": "Entertainment Jobs",
+      "Position": ""
+    },
+    {
+      "Id": 15,
+      "Name": "Fairs & Festivals",
+      "Position": ""
+    },
+    {
+      "Id": 16,
+      "Name": "Film",
+      "Position": ""
+    },
+    {
+      "Id": 17,
+      "Name": "Film Festivals",
+      "Position": ""
+    },
+    {
+      "Id": 18,
+      "Name": "Film/TV Crew",
+      "Position": ""
+    },
+    {
+      "Id": 19,
+      "Name": "Fundraisers",
+      "Position": ""
+    },
+    {
+      "Id": 20,
+      "Name": "Groups & Workshops",
+      "Position": ""
+    },
+    {
+      "Id": 21,
+      "Name": "Fashion Modelling",
+      "Position": ""
+    },
+    {
+      "Id": 22,
+      "Name": "Multimedia & Online",
+      "Position": ""
+    },
+    {
+      "Id": 23,
+      "Name": "Music",
+      "Position": ""
+    },
+    {
+      "Id": 24,
+      "Name": "Music Video",
+      "Position": ""
+    },
+    {
+      "Id": 25,
+      "Name": "Musical Theathre",
+      "Position": ""
+    },
+    {
+      "Id": 26,
+      "Name": "Musicians & Composers",
+      "Position": ""
+    },
+    {
+      "Id": 27,
+      "Name": "Nonunion Film",
+      "Position": ""
+    },
+    {
+      "Id": 28,
+      "Name": "Nonunion Musicals",
+      "Position": ""
+    },
+    {
+      "Id": 29,
+      "Name": "Nonunion Stage",
+      "Position": ""
+    },
+    {
+      "Id": 30,
+      "Name": "Nonunion TV/Video",
+      "Position": ""
+    },
+    {
+      "Id": 31,
+      "Name": "Other",
+      "Position": ""
+    },
+    {
+      "Id": 32,
+      "Name": "Personal Managers",
+      "Position": ""
+    },
+    {
+      "Id": 33,
+      "Name": "Print",
+      "Position": ""
+    },
+    {
+      "Id": 34,
+      "Name": "Private Parties",
+      "Position": ""
+    },
+    {
+      "Id": 35,
+      "Name": "Producers & Directors",
+      "Position": ""
+    },
+    {
+      "Id": 36,
+      "Name": "Radio & Promotion Events",
+      "Position": ""
+    },
+    {
+      "Id": 37,
+      "Name": "Reality TV & Documentary",
+      "Position": ""
+    },
+    {
+      "Id": 38,
+      "Name": "Short Film",
+      "Position": ""
+    },
+    {
+      "Id": 39,
+      "Name": "Singers",
+      "Position": ""
+    },
+    {
+      "Id": 40,
+      "Name": "Stage Staff & Tech",
+      "Position": ""
+    },
+    {
+      "Id": 41,
+      "Name": "Student Film",
+      "Position": ""
+    },
+    {
+      "Id": 42,
+      "Name": "Theathre",
+      "Position": ""
+    },
+    {
+      "Id": 43,
+      "Name": "Theme Parks",
+      "Position": ""
+    },
+    {
+      "Id": 44,
+      "Name": "Tradeshows & Events",
+      "Position": ""
+    },
+    {
+      "Id": 45,
+      "Name": "TV",
+      "Position": ""
+    },
+    {
+      "Id": 46,
+      "Name": "Union Chorus Calls",
+      "Position": ""
+    },
+    {
+      "Id": 47,
+      "Name": "Union Film",
+      "Position": ""
+    },
+    {
+      "Id": 48,
+      "Name": "Union Musicals",
+      "Position": ""
+    },
+    {
+      "Id": 49,
+      "Name": "Union Stage",
+      "Position": ""
+    },
+    {
+      "Id": 50,
+      "Name": "Union TV/Video",
+      "Position": ""
+    },
+    {
+      "Id": 51,
+      "Name": "Union/Nonunion Film",
+      "Position": ""
+    },
+    {
+      "Id": 52,
+      "Name": "Union/Nonunion Musicals",
+      "Position": ""
+    },
+    {
+      "Id": 53,
+      "Name": "Union/Nonunion Stage",
+      "Position": ""
+    },
+    {
+      "Id": 54,
+      "Name": "Union/Nonunion TV/Video",
+      "Position": ""
+    },
+    {
+      "Id": 55,
+      "Name": "Visual Arts",
+      "Position": ""
+    },
+    {
+      "Id": 56,
+      "Name": "Voice Over",
+      "Position": ""
+    },
+    {
+      "Id": 57,
+      "Name": "Voiceovers & Radio",
+      "Position": ""
+    },
+    {
+      "Id": 58,
+      "Name": "Weddings",
+      "Position": ""
+    },
+    {
+      "Id": 59,
+      "Name": "Writers & Scripts",
+      "Position": ""
+    }
+  ]
+}

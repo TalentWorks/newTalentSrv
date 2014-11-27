@@ -1,0 +1,238 @@
+{
+  "professional-fashion": [
+    {
+      "Id": 1,
+      "Artist": "Fashion",
+      "Style": "Account Manager",
+      "Position": ""
+    },
+    {
+      "Id": 2,
+      "Artist": "Fashion",
+      "Style": "Beauty Specialist",
+      "Position": ""
+    },
+    {
+      "Id": 3,
+      "Artist": "Fashion",
+      "Style": "Brand Sales Manager",
+      "Position": ""
+    },
+    {
+      "Id": 4,
+      "Artist": "Fashion",
+      "Style": "Business Development Manager",
+      "Position": ""
+    },
+    {
+      "Id": 5,
+      "Artist": "Fashion",
+      "Style": "Buyer",
+      "Position": ""
+    },
+    {
+      "Id": 6,
+      "Artist": "Fashion",
+      "Style": "Buyer, Assistant",
+      "Position": ""
+    },
+    {
+      "Id": 7,
+      "Artist": "Fashion",
+      "Style": "Buyer, Senior",
+      "Position": ""
+    },
+    {
+      "Id": 8,
+      "Artist": "Fashion",
+      "Style": "Designer",
+      "Position": ""
+    },
+    {
+      "Id": 9,
+      "Artist": "Fashion",
+      "Style": "Designer, Assistant",
+      "Position": ""
+    },
+    {
+      "Id": 10,
+      "Artist": "Fashion",
+      "Style": "Designer, Junior",
+      "Position": ""
+    },
+    {
+      "Id": 11,
+      "Artist": "Fashion",
+      "Style": "Designer, Senior",
+      "Position": ""
+    },
+    {
+      "Id": 12,
+      "Artist": "Fashion",
+      "Style": "Floor Manager",
+      "Position": ""
+    },
+    {
+      "Id": 13,
+      "Artist": "Fashion",
+      "Style": "Forecaster",
+      "Position": ""
+    },
+    {
+      "Id": 14,
+      "Artist": "Fashion",
+      "Style": "Garment Technologist",
+      "Position": ""
+    },
+    {
+      "Id": 15,
+      "Artist": "Fashion",
+      "Style": "General Manager",
+      "Position": ""
+    },
+    {
+      "Id": 16,
+      "Artist": "Fashion",
+      "Style": "Handcraft Tailor",
+      "Position": ""
+    },
+    {
+      "Id": 17,
+      "Artist": "Fashion",
+      "Style": "Make Up Artist",
+      "Position": ""
+    },
+    {
+      "Id": 18,
+      "Artist": "Fashion",
+      "Style": "Merchandiser",
+      "Position": ""
+    },
+    {
+      "Id": 19,
+      "Artist": "Fashion",
+      "Style": "Merchandiser, Assistant",
+      "Position": ""
+    },
+    {
+      "Id": 20,
+      "Artist": "Fashion",
+      "Style": "Merchandiser, Senior",
+      "Position": ""
+    },
+    {
+      "Id": 21,
+      "Artist": "Fashion",
+      "Style": "Milliner Hat Designer",
+      "Position": ""
+    },
+    {
+      "Id": 22,
+      "Artist": "Fashion",
+      "Style": "Operations Manager",
+      "Position": ""
+    },
+    {
+      "Id": 23,
+      "Artist": "Fashion",
+      "Style": "Pattern-Cutter",
+      "Position": ""
+    },
+    {
+      "Id": 24,
+      "Artist": "Fashion",
+      "Style": "Pattern-Grader",
+      "Position": ""
+    },
+    {
+      "Id": 25,
+      "Artist": "Fashion",
+      "Style": "Personal Shopper",
+      "Position": ""
+    },
+    {
+      "Id": 26,
+      "Artist": "Fashion",
+      "Style": "Photographer",
+      "Position": ""
+    },
+    {
+      "Id": 27,
+      "Artist": "Fashion",
+      "Style": "Production Coordinator",
+      "Position": ""
+    },
+    {
+      "Id": 28,
+      "Artist": "Fashion",
+      "Style": "Production Manager",
+      "Position": ""
+    },
+    {
+      "Id": 29,
+      "Artist": "Fashion",
+      "Style": "Project Manager",
+      "Position": ""
+    },
+    {
+      "Id": 30,
+      "Artist": "Fashion",
+      "Style": "Project Manager, Assistant",
+      "Position": ""
+    },
+    {
+      "Id": 31,
+      "Artist": "Fashion",
+      "Style": "Project Manager, Senior=6061>Promotion Specialist",
+      "Position": ""
+    },
+    {
+      "Id": 32,
+      "Artist": "Fashion",
+      "Style": "Retail Manager",
+      "Position": ""
+    },
+    {
+      "Id": 33,
+      "Artist": "Fashion",
+      "Style": "Sales Coordinator",
+      "Position": ""
+    },
+    {
+      "Id": 34,
+      "Artist": "Fashion",
+      "Style": "Sample Machinist",
+      "Position": ""
+    },
+    {
+      "Id": 35,
+      "Artist": "Fashion",
+      "Style": "Security Manager",
+      "Position": ""
+    },
+    {
+      "Id": 36,
+      "Artist": "Fashion",
+      "Style": "Store Supervisor",
+      "Position": ""
+    },
+    {
+      "Id": 37,
+      "Artist": "Fashion",
+      "Style": "Stylist",
+      "Position": ""
+    },
+    {
+      "Id": 38,
+      "Artist": "Fashion",
+      "Style": "Technical Manager",
+      "Position": ""
+    },
+    {
+      "Id": 39,
+      "Artist": "Fashion",
+      "Style": "Visual Merchandising Manager<",
+      "Position": ""
+    }
+  ]
+}

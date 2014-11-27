@@ -1,0 +1,1983 @@
+{
+  "artist-types": [
+    {
+      "id": "0001",
+      "artist": "Visual Art",
+      "style": {
+        "id": "0001",
+        "Ceramics": {
+          "Medium": {
+            "id": "0001",
+            "type": "Clay"
+          },
+          "Medium": {
+            "id": "0002",
+            "type": "Earthen Ware"
+          },
+          "Medium": {
+            "id": "0003",
+            "type": "Low-fire"
+          },
+          "Medium": {
+            "id": "0004",
+            "type": "Pit-Fired"
+          },
+          "Medium": {
+            "id": "0005",
+            "type": "Porcelain"
+          },
+          "Medium": {
+            "id": "0006",
+            "type": "Raku"
+          },
+          "Medium": {
+            "id": "0007",
+            "type": "Stoneware"
+          },
+          "subjects": {
+            "subject": [
+              {
+                "id": "1001",
+                "type": "Animals"
+              },
+              {
+                "id": "1002",
+                "type": "Decorative"
+              },
+              {
+                "id": "1003",
+                "type": "Figurative"
+              },
+              {
+                "id": "1004",
+                "type": "Functional"
+              },
+              {
+                "id": "1004",
+                "type": "Relief"
+              },
+              {
+                "id": "1006",
+                "type": "Tiles"
+              }
+            ]
+          }
+        }
+      },
+      "style": {
+        "id": "0002",
+        "Digital Art": {
+          "Medium": {
+            "id": "0001",
+            "type": "3-Dimensional"
+          },
+          "Medium": {
+            "id": "0002",
+            "type": "Drawing"
+          },
+          "Medium": {
+            "id": "0003",
+            "type": "Fractal"
+          },
+          "Medium": {
+            "id": "0004",
+            "type": "Generation"
+          },
+          "Medium": {
+            "id": "0005",
+            "type": "Painting"
+          },
+          "Medium": {
+            "id": "0006",
+            "type": "Photo Manipulation"
+          },
+          "Medium": {
+            "id": "0007",
+            "type": "Photography"
+          },
+          "Medium": {
+            "id": "0008",
+            "type": "Pixel"
+          },
+          "Medium": {
+            "id": "0009",
+            "type": "Vector Graphics"
+          },
+          "Medium": {
+            "id": "0010",
+            "type": "Canvas"
+          },
+          "Medium": {
+            "id": "0011",
+            "type": "Charcoal"
+          },
+          "Medium": {
+            "id": "0012",
+            "type": "Paper"
+          },
+          "Medium": {
+            "id": "0013",
+            "type": "Charcoal"
+          },
+          "Medium": {
+            "id": "0014",
+            "type": "Pastels"
+          },
+          "Medium": {
+            "id": "0015",
+            "type": "Pencil"
+          },
+          "Medium": {
+            "id": "0016",
+            "type": "Artquilt"
+          },
+          "Medium": {
+            "id": "0017",
+            "type": "Basketry"
+          },
+          "Medium": {
+            "id": "0018",
+            "type": "Beading"
+          },
+          "Medium": {
+            "id": "0019",
+            "type": "Embroidery"
+          },
+          "Medium": {
+            "id": "0020",
+            "type": "Felter"
+          },
+          "Medium": {
+            "id": "0021",
+            "type": "Found"
+          },
+          "Medium": {
+            "id": "0022",
+            "type": "Installation"
+          },
+          "Medium": {
+            "id": "0023",
+            "type": "Mixed Fiber"
+          },
+          "Medium": {
+            "id": "0024",
+            "type": "Paper"
+          },
+          "Medium": {
+            "id": "0025",
+            "type": "Quilting"
+          },
+          "Medium": {
+            "id": "0017",
+            "type": "Rug"
+          },
+          "Medium": {
+            "id": "0026",
+            "type": "Sculpture"
+          },
+          "Medium": {
+            "id": "0027",
+            "type": "Spinner"
+          },
+          "Medium": {
+            "id": "0028",
+            "type": "Tapestry"
+          },
+          "Medium": {
+            "id": "0029",
+            "type": "Wall Hanging"
+          },
+          "Medium": {
+            "id": "0030",
+            "type": "Wearables"
+          },
+          "Medium": {
+            "id": "0031",
+            "type": "Weaver"
+          },
+          "Medium": {
+            "id": "0032",
+            "type": "Colored pencil"
+          },
+          "Medium": {
+            "id": "0033",
+            "type": "Ink"
+          },
+          "subjects": {
+            "subject": [
+              {
+                "id": "1001",
+                "type": "Abstract"
+              },
+              {
+                "id": "1002",
+                "type": "Allegorical"
+              },
+              {
+                "id": "1003",
+                "type": "Animals"
+              },
+              {
+                "id": "1004",
+                "type": "Animation"
+              },
+              {
+                "id": "1005",
+                "type": "Botanical"
+              },
+              {
+                "id": "1006",
+                "type": "Cityscape"
+              },
+              {
+                "id": "1007",
+                "type": "Color Field"
+              },
+              {
+                "id": "1008",
+                "type": "Conceptual"
+              },
+              {
+                "id": "1009",
+                "type": "Expressionist"
+              },
+              {
+                "id": "1010",
+                "type": "Fantasy"
+              },
+              {
+                "id": "1011",
+                "type": "Figurative"
+              },
+              {
+                "id": "1012",
+                "type": "Fine Art"
+              },
+              {
+                "id": "1013",
+                "type": "Floral"
+              },
+              {
+                "id": "1014",
+                "type": "Genre"
+              },
+              {
+                "id": "1015",
+                "type": "Graphic"
+              },
+              {
+                "id": "1016",
+                "type": "Illustration"
+              },
+              {
+                "id": "1017",
+                "type": "Impressionism"
+              },
+              {
+                "id": "1018",
+                "type": "Landscape"
+              },
+              {
+                "id": "1019",
+                "type": "Nude"
+              },
+              {
+                "id": "1020",
+                "type": "Photographic"
+              },
+              {
+                "id": "1021",
+                "type": "Photorealism"
+              },
+              {
+                "id": "1022",
+                "type": "Plein Air"
+              },
+              {
+                "id": "1023",
+                "type": "Political"
+              },
+              {
+                "id": "1024",
+                "type": "Pop Art"
+              },
+              {
+                "id": "1009",
+                "type": "Portrait"
+              },
+              {
+                "id": "1025",
+                "type": "Primitive"
+              },
+              {
+                "id": "1026",
+                "type": "Realism"
+              },
+              {
+                "id": "1027",
+                "type": "Seascape"
+              },
+              {
+                "id": "1028",
+                "type": "Southwestern"
+              },
+              {
+                "id": "1029",
+                "type": "Spiritual"
+              },
+              {
+                "id": "1030",
+                "type": "Sports"
+              },
+              {
+                "id": "1031",
+                "type": "Still Life"
+              },
+              {
+                "id": "1032",
+                "type": "Surrealism"
+              },
+              {
+                "id": "1033",
+                "type": "Symbolism"
+              },
+              {
+                "id": "1034",
+                "type": "Text based"
+              },
+              {
+                "id": "1035",
+                "type": "Dadaism"
+              },
+              {
+                "id": "1009",
+                "type": "Vorticism"
+              }
+            ]
+          }
+        }
+      },
+      "style": {
+        "id": "0003",
+        "Fiber Art": {
+          "Medium": {
+            "id": "0001",
+            "type": "Artquilt"
+          },
+          "Medium": {
+            "id": "0002",
+            "type": "Basketry"
+          },
+          "Medium": {
+            "id": "0003",
+            "type": "Beading"
+          },
+          "Medium": {
+            "id": "0004",
+            "type": "Embroidery"
+          },
+          "Medium": {
+            "id": "0005",
+            "type": "Felter"
+          },
+          "Medium": {
+            "id": "0006",
+            "type": "Found"
+          },
+          "Medium": {
+            "id": "0007",
+            "type": "Installation"
+          },
+          "Medium": {
+            "id": "0008",
+            "type": "Mixed Fiber"
+          },
+          "Medium": {
+            "id": "0009",
+            "type": "Paper"
+          },
+          "Medium": {
+            "id": "0010",
+            "type": "Quilting"
+          },
+          "Medium": {
+            "id": "0011",
+            "type": "Rug"
+          },
+          "Medium": {
+            "id": "0012",
+            "type": "Sculpture"
+          },
+          "Medium": {
+            "id": "0013",
+            "type": "Spinner"
+          },
+          "Medium": {
+            "id": "0014",
+            "type": "Tapestry"
+          },
+          "Medium": {
+            "id": "0015",
+            "type": "Wall Hanging"
+          },
+          "Medium": {
+            "id": "0016",
+            "type": "Wearables"
+          },
+          "Medium": {
+            "id": "0017",
+            "type": "Weaver"
+          },
+          "subjects": {
+            "subject": [
+              {
+                "id": "1001",
+                "type": "Abstract"
+              },
+              {
+                "id": "1002",
+                "type": "Allegorical"
+              },
+              {
+                "id": "1003",
+                "type": "Animals"
+              },
+              {
+                "id": "1004",
+                "type": "Animation"
+              },
+              {
+                "id": "1005",
+                "type": "Botanical"
+              },
+              {
+                "id": "1006",
+                "type": "Cityscape"
+              },
+              {
+                "id": "1007",
+                "type": "Color Field"
+              },
+              {
+                "id": "1008",
+                "type": "Conceptual"
+              },
+              {
+                "id": "1009",
+                "type": "Expressionist"
+              },
+              {
+                "id": "1010",
+                "type": "Fantasy"
+              },
+              {
+                "id": "1011",
+                "type": "Figurative"
+              },
+              {
+                "id": "1012",
+                "type": "Fine Art"
+              },
+              {
+                "id": "1013",
+                "type": "Floral"
+              },
+              {
+                "id": "1014",
+                "type": "Genre"
+              },
+              {
+                "id": "1015",
+                "type": "Graphic"
+              },
+              {
+                "id": "1016",
+                "type": "Illustration"
+              },
+              {
+                "id": "1017",
+                "type": "Impressionism"
+              },
+              {
+                "id": "1018",
+                "type": "Landscape"
+              },
+              {
+                "id": "1019",
+                "type": "Nude"
+              },
+              {
+                "id": "1020",
+                "type": "Photographic"
+              },
+              {
+                "id": "1021",
+                "type": "Photorealism"
+              },
+              {
+                "id": "1022",
+                "type": "Plein Air"
+              },
+              {
+                "id": "1023",
+                "type": "Political"
+              },
+              {
+                "id": "1024",
+                "type": "Pop Art"
+              },
+              {
+                "id": "1009",
+                "type": "Portrait"
+              },
+              {
+                "id": "1025",
+                "type": "Primitive"
+              },
+              {
+                "id": "1026",
+                "type": "Realism"
+              },
+              {
+                "id": "1027",
+                "type": "Seascape"
+              },
+              {
+                "id": "1028",
+                "type": "Southwestern"
+              },
+              {
+                "id": "1029",
+                "type": "Spiritual"
+              },
+              {
+                "id": "1030",
+                "type": "Sports"
+              },
+              {
+                "id": "1031",
+                "type": "Still Life"
+              },
+              {
+                "id": "1032",
+                "type": "Surrealism"
+              },
+              {
+                "id": "1033",
+                "type": "Symbolism"
+              },
+              {
+                "id": "1034",
+                "type": "Text based"
+              },
+              {
+                "id": "1035",
+                "type": "Dadaism"
+              },
+              {
+                "id": "1036",
+                "type": "Vorticism"
+              },
+              {
+                "id": "1037",
+                "type": "Decorative"
+              },
+              {
+                "id": "1038",
+                "type": "Fine Art"
+              },
+              {
+                "id": "1040",
+                "type": "Functional"
+              },
+              {
+                "id": "1041",
+                "type": "Narrative"
+              },
+              {
+                "id": "1042",
+                "type": "Studio"
+              },
+              {
+                "id": "1043",
+                "type": "Western"
+              },
+              {
+                "id": "1043",
+                "type": "Wildlife"
+              }
+            ]
+          }
+        }
+      },
+      "style": {
+        "id": "0004",
+        "Glass": {
+          "Medium": {
+            "id": "0001",
+            "type": "Blown"
+          },
+          "Medium": {
+            "id": "0002",
+            "type": "Clear"
+          },
+          "Medium": {
+            "id": "0003",
+            "type": "Colored"
+          },
+          "Medium": {
+            "id": "0004",
+            "type": "Found"
+          },
+          "Medium": {
+            "id": "0005",
+            "type": "Frosted"
+          },
+          "subjects": {
+            "subject": [
+              {
+                "id": "1001",
+                "type": "Abstract"
+              },
+              {
+                "id": "1002",
+                "type": "Bowls and Vessels"
+              },
+              {
+                "id": "1003",
+                "type": "Decorative"
+              },
+              {
+                "id": "1004",
+                "type": "Figurative"
+              },
+              {
+                "id": "1004",
+                "type": "Functional"
+              },
+              {
+                "id": "1006",
+                "type": "Jewelry"
+              },
+              {
+                "id": "1007",
+                "type": "Stained Glass"
+              }
+            ]
+          }
+        }
+      },
+      "style": {
+        "id": "0005",
+        "Drawing": {
+          "Medium": {
+            "id": "0001",
+            "type": "Canvas"
+          },
+          "Medium": {
+            "id": "0002",
+            "type": "Charcoal"
+          },
+          "Medium": {
+            "id": "0003",
+            "type": "Colored pencil"
+          },
+          "Medium": {
+            "id": "0004",
+            "type": "Ink"
+          },
+          "Medium": {
+            "id": "0005",
+            "type": "Paper"
+          },
+          "Medium": {
+            "id": "0006",
+            "type": "Pastels"
+          },
+          "Medium": {
+            "id": "0007",
+            "type": "Pencil"
+          },
+          "subjects": {
+            "subject": [
+              {
+                "id": "1001",
+                "type": "Abstract"
+              },
+              {
+                "id": "1002",
+                "type": "Allegorical"
+              },
+              {
+                "id": "1003",
+                "type": "Animals"
+              },
+              {
+                "id": "1004",
+                "type": "Animation"
+              },
+              {
+                "id": "1005",
+                "type": "Botanical"
+              },
+              {
+                "id": "1006",
+                "type": "Cityscape"
+              },
+              {
+                "id": "1007",
+                "type": "Color Field"
+              },
+              {
+                "id": "1008",
+                "type": "Conceptual"
+              },
+              {
+                "id": "1009",
+                "type": "Expressionist"
+              },
+              {
+                "id": "1010",
+                "type": "Fantasy"
+              },
+              {
+                "id": "1011",
+                "type": "Figurative"
+              },
+              {
+                "id": "1012",
+                "type": "Fine Art"
+              },
+              {
+                "id": "1013",
+                "type": "Floral"
+              },
+              {
+                "id": "1014",
+                "type": "Genre"
+              },
+              {
+                "id": "1015",
+                "type": "Graphic"
+              },
+              {
+                "id": "1016",
+                "type": "Illustration"
+              },
+              {
+                "id": "1017",
+                "type": "Impressionism"
+              },
+              {
+                "id": "1018",
+                "type": "Landscape"
+              },
+              {
+                "id": "1019",
+                "type": "Nude"
+              },
+              {
+                "id": "1020",
+                "type": "Photographic"
+              },
+              {
+                "id": "1021",
+                "type": "Photorealism"
+              },
+              {
+                "id": "1022",
+                "type": "Plein Air"
+              },
+              {
+                "id": "1023",
+                "type": "Political"
+              },
+              {
+                "id": "1024",
+                "type": "Pop Art"
+              },
+              {
+                "id": "1009",
+                "type": "Portrait"
+              },
+              {
+                "id": "1025",
+                "type": "Primitive"
+              },
+              {
+                "id": "1026",
+                "type": "Realism"
+              },
+              {
+                "id": "1027",
+                "type": "Seascape"
+              },
+              {
+                "id": "1028",
+                "type": "Southwestern"
+              },
+              {
+                "id": "1029",
+                "type": "Spiritual"
+              },
+              {
+                "id": "1030",
+                "type": "Sports"
+              },
+              {
+                "id": "1031",
+                "type": "Still Life"
+              },
+              {
+                "id": "1032",
+                "type": "Surrealism"
+              },
+              {
+                "id": "1033",
+                "type": "Symbolism"
+              },
+              {
+                "id": "1034",
+                "type": "Text based"
+              },
+              {
+                "id": "1035",
+                "type": "Dadaism"
+              },
+              {
+                "id": "1036",
+                "type": "Vorticism"
+              },
+              {
+                "id": "1037",
+                "type": "Decorative"
+              },
+              {
+                "id": "1038",
+                "type": "Fine Art"
+              },
+              {
+                "id": "1040",
+                "type": "Functional"
+              },
+              {
+                "id": "1041",
+                "type": "Narrative"
+              },
+              {
+                "id": "1042",
+                "type": "Studio"
+              },
+              {
+                "id": "1043",
+                "type": "Western"
+              },
+              {
+                "id": "1043",
+                "type": "Wildlife"
+              }
+            ]
+          }
+        }
+      },
+      "style": {
+        "id": "0006",
+        "Jewelry": {
+          "Medium": {
+            "id": "0001",
+            "type": "Beads"
+          },
+          "Medium": {
+            "id": "0002",
+            "type": "Bronzclay"
+          },
+          "Medium": {
+            "id": "0003",
+            "type": "Ceramic"
+          },
+          "Medium": {
+            "id": "0004",
+            "type": "Fiber/fabric"
+          },
+          "Medium": {
+            "id": "0005",
+            "type": "Found Objects"
+          },
+          "Medium": {
+            "id": "0006",
+            "type": "Glass"
+          },
+          "Medium": {
+            "id": "0007",
+            "type": "Hadar's Clay"
+          },
+          "Medium": {
+            "id": "0008",
+            "type": "Leather"
+          },
+          "Medium": {
+            "id": "0009",
+            "type": "Noble Metals"
+          },
+          "Medium": {
+            "id": "0010",
+            "type": "Plastic"
+          },
+          "Medium": {
+            "id": "0011",
+            "type": "Polymer Clay"
+          },
+          "Medium": {
+            "id": "0012",
+            "type": "Precious Metal Clay"
+          },
+          "Medium": {
+            "id": "0013",
+            "type": "Precious Stones"
+          },
+          "Medium": {
+            "id": "0014",
+            "type": "Semi-Precious Stones"
+          },
+          "Medium": {
+            "id": "0014",
+            "type": "Wire"
+          },
+          "subjects": {
+            "subject": [
+              {
+                "id": "1001",
+                "type": "Brooches & Pins"
+              },
+              {
+                "id": "1002",
+                "type": "Decorative"
+              },
+              {
+                "id": "1003",
+                "type": "Earrings"
+              },
+              {
+                "id": "1004",
+                "type": "Fantasy"
+              },
+              {
+                "id": "1004",
+                "type": "Figurative"
+              },
+              {
+                "id": "1005",
+                "type": "Humorous"
+              },
+              {
+                "id": "1006",
+                "type": "Lockets & Pendants"
+              },
+              {
+                "id": "1007",
+                "type": "Men's Jewelry"
+              },
+              {
+                "id": "1008",
+                "type": "Necklaces"
+              },
+              {
+                "id": "1009",
+                "type": "Rings and Bracelets"
+              }
+            ]
+          }
+        }
+      },
+      "style": {
+        "id": "0007",
+        "Painting": {
+          "Medium": {
+            "id": "0001",
+            "type": "Acrylic"
+          },
+          "Medium": {
+            "id": "0002",
+            "type": "Dye"
+          },
+          "Medium": {
+            "id": "0003",
+            "type": "Egg Tempera"
+          },
+          "Medium": {
+            "id": "0004",
+            "type": "Fiber/fabric"
+          },
+          "Medium": {
+            "id": "0005",
+            "type": "Encaustic"
+          },
+          "Medium": {
+            "id": "0006",
+            "type": "Murals"
+          },
+          "Medium": {
+            "id": "0007",
+            "type": "Oil"
+          },
+          "Medium": {
+            "id": "0008",
+            "type": "Oil Pastels"
+          },
+          "Medium": {
+            "id": "0009",
+            "type": "Pastels"
+          },
+          "Medium": {
+            "id": "0010",
+            "type": "Scratch Art"
+          },
+          "Medium": {
+            "id": "0011",
+            "type": "Polymer Clay"
+          },
+          "Medium": {
+            "id": "0012",
+            "type": "Watercolor"
+          },
+          "Medium": {
+            "id": "0013",
+            "type": "Mixed Media"
+          },
+          "Medium": {
+            "id": "0014",
+            "type": "Natural Earth Media"
+          },
+          "Medium": {
+            "id": "0014",
+            "type": "Wire"
+          },
+          "subjects": {
+            "subject": [
+              {
+                "id": "1001",
+                "type": "Abstract"
+              },
+              {
+                "id": "1002",
+                "type": "Allegorical"
+              },
+              {
+                "id": "1003",
+                "type": "Animals"
+              },
+              {
+                "id": "1004",
+                "type": "Animation"
+              },
+              {
+                "id": "1005",
+                "type": "Botanical"
+              },
+              {
+                "id": "1006",
+                "type": "Cityscape"
+              },
+              {
+                "id": "1007",
+                "type": "Color Field"
+              },
+              {
+                "id": "1008",
+                "type": "Conceptual"
+              },
+              {
+                "id": "1009",
+                "type": "Expressionist"
+              },
+              {
+                "id": "1010",
+                "type": "Fantasy"
+              },
+              {
+                "id": "1011",
+                "type": "Figurative"
+              },
+              {
+                "id": "1012",
+                "type": "Fine Art"
+              },
+              {
+                "id": "1013",
+                "type": "Floral"
+              },
+              {
+                "id": "1014",
+                "type": "Genre"
+              },
+              {
+                "id": "1015",
+                "type": "Graphic"
+              },
+              {
+                "id": "1016",
+                "type": "Illustration"
+              },
+              {
+                "id": "1017",
+                "type": "Impressionism"
+              },
+              {
+                "id": "1018",
+                "type": "Landscape"
+              },
+              {
+                "id": "1019",
+                "type": "Nude"
+              },
+              {
+                "id": "1020",
+                "type": "Photographic"
+              },
+              {
+                "id": "1021",
+                "type": "Photorealism"
+              },
+              {
+                "id": "1022",
+                "type": "Plein Air"
+              },
+              {
+                "id": "1023",
+                "type": "Political"
+              },
+              {
+                "id": "1024",
+                "type": "Pop Art"
+              },
+              {
+                "id": "1009",
+                "type": "Portrait"
+              },
+              {
+                "id": "1025",
+                "type": "Primitive"
+              },
+              {
+                "id": "1026",
+                "type": "Realism"
+              },
+              {
+                "id": "1027",
+                "type": "Seascape"
+              },
+              {
+                "id": "1028",
+                "type": "Southwestern"
+              },
+              {
+                "id": "1029",
+                "type": "Spiritual"
+              },
+              {
+                "id": "1030",
+                "type": "Sports"
+              },
+              {
+                "id": "1031",
+                "type": "Still Life"
+              },
+              {
+                "id": "1032",
+                "type": "Surrealism"
+              },
+              {
+                "id": "1033",
+                "type": "Symbolism"
+              },
+              {
+                "id": "1034",
+                "type": "Text based"
+              },
+              {
+                "id": "1035",
+                "type": "Dadaism"
+              },
+              {
+                "id": "1036",
+                "type": "Vorticism"
+              },
+              {
+                "id": "1037",
+                "type": "Decorative"
+              },
+              {
+                "id": "1038",
+                "type": "Fine Art"
+              },
+              {
+                "id": "1040",
+                "type": "Functional"
+              },
+              {
+                "id": "1041",
+                "type": "Narrative"
+              },
+              {
+                "id": "1042",
+                "type": "Studio"
+              },
+              {
+                "id": "1043",
+                "type": "Western"
+              },
+              {
+                "id": "1043",
+                "type": "Wildlife"
+              }
+            ]
+          }
+        }
+      },
+      "style": {
+        "id": "0008",
+        "Photography": {
+          "Medium": {
+            "id": "0001",
+            "type": "Alternative Processes"
+          },
+          "Medium": {
+            "id": "0002",
+            "type": "Black & White"
+          },
+          "Medium": {
+            "id": "0003",
+            "type": "Color"
+          },
+          "Medium": {
+            "id": "0004",
+            "type": "Digital"
+          },
+          "Medium": {
+            "id": "0005",
+            "type": "Hand colored"
+          },
+          "Medium": {
+            "id": "0006",
+            "type": "Polaroid"
+          },
+          "subjects": {
+            "subject": [
+              {
+                "id": "1001",
+                "type": "Abstract"
+              },
+              {
+                "id": "1002",
+                "type": "Allegorical"
+              },
+              {
+                "id": "1003",
+                "type": "Animals"
+              },
+              {
+                "id": "1004",
+                "type": "Animation"
+              },
+              {
+                "id": "1005",
+                "type": "Botanical"
+              },
+              {
+                "id": "1006",
+                "type": "Cityscape"
+              },
+              {
+                "id": "1007",
+                "type": "Color Field"
+              },
+              {
+                "id": "1008",
+                "type": "Conceptual"
+              },
+              {
+                "id": "1009",
+                "type": "Expressionist"
+              },
+              {
+                "id": "1010",
+                "type": "Fantasy"
+              },
+              {
+                "id": "1011",
+                "type": "Figurative"
+              },
+              {
+                "id": "1012",
+                "type": "Fine Art"
+              },
+              {
+                "id": "1013",
+                "type": "Floral"
+              },
+              {
+                "id": "1014",
+                "type": "Genre"
+              },
+              {
+                "id": "1015",
+                "type": "Graphic"
+              },
+              {
+                "id": "1016",
+                "type": "Illustration"
+              },
+              {
+                "id": "1017",
+                "type": "Impressionism"
+              },
+              {
+                "id": "1018",
+                "type": "Landscape"
+              },
+              {
+                "id": "1019",
+                "type": "Nude"
+              },
+              {
+                "id": "1020",
+                "type": "Photographic"
+              },
+              {
+                "id": "1021",
+                "type": "Photorealism"
+              },
+              {
+                "id": "1022",
+                "type": "Plein Air"
+              },
+              {
+                "id": "1023",
+                "type": "Political"
+              },
+              {
+                "id": "1024",
+                "type": "Pop Art"
+              },
+              {
+                "id": "1009",
+                "type": "Portrait"
+              },
+              {
+                "id": "1025",
+                "type": "Primitive"
+              },
+              {
+                "id": "1026",
+                "type": "Realism"
+              },
+              {
+                "id": "1027",
+                "type": "Seascape"
+              },
+              {
+                "id": "1028",
+                "type": "Southwestern"
+              },
+              {
+                "id": "1029",
+                "type": "Spiritual"
+              },
+              {
+                "id": "1030",
+                "type": "Sports"
+              },
+              {
+                "id": "1031",
+                "type": "Still Life"
+              },
+              {
+                "id": "1032",
+                "type": "Surrealism"
+              },
+              {
+                "id": "1033",
+                "type": "Symbolism"
+              },
+              {
+                "id": "1034",
+                "type": "Text based"
+              },
+              {
+                "id": "1035",
+                "type": "Dadaism"
+              },
+              {
+                "id": "1036",
+                "type": "Vorticism"
+              },
+              {
+                "id": "1037",
+                "type": "Decorative"
+              },
+              {
+                "id": "1038",
+                "type": "Fine Art"
+              },
+              {
+                "id": "1040",
+                "type": "Functional"
+              },
+              {
+                "id": "1041",
+                "type": "Narrative"
+              },
+              {
+                "id": "1042",
+                "type": "Studio"
+              },
+              {
+                "id": "1043",
+                "type": "Western"
+              },
+              {
+                "id": "1044",
+                "type": "Photojournalism"
+              },
+              {
+                "id": "1045",
+                "type": "Wedding & Event"
+              }
+            ]
+          }
+        }
+      },
+      "style": {
+      "id": "0009",
+      "Sculpture": {
+        "Medium": {
+          "id": "0001",
+          "type": "Acrylic"
+        },
+        "Medium": {
+          "id": "0002",
+          "type": "Bronze"
+        },
+        "Medium": {
+          "id": "0003",
+          "type": "Cast-Paper"
+        },
+        "Medium": {
+          "id": "0004",
+          "type": "Ceramic"
+        },
+        "Medium": {
+          "id": "0005",
+          "type": "Fiberglass"
+        },
+        "Medium": {
+          "id": "0006",
+          "type": "Found Objects"
+        },
+        "Medium": {
+          "id": "0007",
+          "type": "Glass"
+        },
+        "Medium": {
+          "id": "0007",
+          "type": "Metal"
+        },
+        "Medium": {
+          "id": "0007",
+          "type": "Mixed Media"
+        },
+        "Medium": {
+          "id": "0007",
+          "type": "Plastic"
+        },
+        "Medium": {
+          "id": "0007",
+          "type": "Steel"
+        },
+        "Medium": {
+          "id": "0007",
+          "type": "Stone"
+        },
+        "Medium": {
+          "id": "0007",
+          "type": "Wood"
+        },
+        "subjects": {
+          "subject": [
+            {
+              "id": "1001",
+              "type": "Abstract"
+            },
+            {
+              "id": "1002",
+              "type": "Allegorical"
+            },
+            {
+              "id": "1003",
+              "type": "Animals"
+            },
+            {
+              "id": "1004",
+              "type": "Animation"
+            },
+            {
+              "id": "1005",
+              "type": "Botanical"
+            },
+            {
+              "id": "1006",
+              "type": "Cityscape"
+            },
+            {
+              "id": "1007",
+              "type": "Color Field"
+            },
+            {
+              "id": "1008",
+              "type": "Conceptual"
+            },
+            {
+              "id": "1009",
+              "type": "Expressionist"
+            },
+            {
+              "id": "1010",
+              "type": "Fantasy"
+            },
+            {
+              "id": "1011",
+              "type": "Figurative"
+            },
+            {
+              "id": "1012",
+              "type": "Fine Art"
+            },
+            {
+              "id": "1013",
+              "type": "Floral"
+            },
+            {
+              "id": "1014",
+              "type": "Genre"
+            },
+            {
+              "id": "1015",
+              "type": "Graphic"
+            },
+            {
+              "id": "1016",
+              "type": "Illustration"
+            },
+            {
+              "id": "1017",
+              "type": "Impressionism"
+            },
+            {
+              "id": "1018",
+              "type": "Landscape"
+            },
+            {
+              "id": "1019",
+              "type": "Nude"
+            },
+            {
+              "id": "1020",
+              "type": "Photographic"
+            },
+            {
+              "id": "1021",
+              "type": "Photorealism"
+            },
+            {
+              "id": "1022",
+              "type": "Plein Air"
+            },
+            {
+              "id": "1023",
+              "type": "Political"
+            },
+            {
+              "id": "1024",
+              "type": "Pop Art"
+            },
+            {
+              "id": "1009",
+              "type": "Portrait"
+            },
+            {
+              "id": "1025",
+              "type": "Primitive"
+            },
+            {
+              "id": "1026",
+              "type": "Realism"
+            },
+            {
+              "id": "1027",
+              "type": "Seascape"
+            },
+            {
+              "id": "1028",
+              "type": "Southwestern"
+            },
+            {
+              "id": "1029",
+              "type": "Spiritual"
+            },
+            {
+              "id": "1030",
+              "type": "Sports"
+            },
+            {
+              "id": "1031",
+              "type": "Still Life"
+            },
+            {
+              "id": "1032",
+              "type": "Surrealism"
+            },
+            {
+              "id": "1033",
+              "type": "Symbolism"
+            },
+            {
+              "id": "1034",
+              "type": "Text based"
+            },
+            {
+              "id": "1035",
+              "type": "Dadaism"
+            },
+            {
+              "id": "1036",
+              "type": "Vorticism"
+            },
+            {
+              "id": "1037",
+              "type": "Decorative"
+            },
+            {
+              "id": "1038",
+              "type": "Fine Art"
+            },
+            {
+              "id": "1040",
+              "type": "Functional"
+            },
+            {
+              "id": "1041",
+              "type": "Narrative"
+            },
+            {
+              "id": "1042",
+              "type": "Studio"
+            },
+            {
+              "id": "1043",
+              "type": "Western"
+            },
+            {
+              "id": "1044",
+              "type": "Photojournalism"
+            },
+            {
+              "id": "1045",
+              "type": "Wedding & Event"
+            }
+          ]
+        }
+      }
+    },
+      "style": {
+        "id": "0010",
+        "Wood": {
+          "Medium": {
+            "id": "0001",
+            "type": "Carved"
+          },
+          "Medium": {
+            "id": "0002",
+            "type": "Chestnut"
+          },
+          "Medium": {
+            "id": "0003",
+            "type": "Mahogany"
+          },
+          "Medium": {
+            "id": "0004",
+            "type": "Oak"
+          },
+          "Medium": {
+            "id": "0005",
+            "type": "Painted"
+          },
+          "Medium": {
+            "id": "0006",
+            "type": "Pine"
+          },
+          "Medium": {
+            "id": "0007",
+            "type": "Rough"
+          },
+          "Medium": {
+            "id": "0007",
+            "type": "Recycled Wood"
+          },
+          "subjects": {
+            "subject": [
+              {
+                "id": "1001",
+                "type": "Abstract"
+              },
+              {
+                "id": "1002",
+                "type": "Bowls and Vessels"
+              },
+              {
+                "id": "1003",
+                "type": "Decorative"
+              },
+              {
+                "id": "1004",
+                "type": "Figurative"
+              },
+              {
+                "id": "1005",
+                "type": "Functional"
+              },
+              {
+                "id": "1006",
+                "type": "Furniture"
+              }
+            ]
+          }
+        }
+      },
+      "style": {
+        "id": "0011",
+        "Print Making": {
+          "Medium": {
+            "id": "0001",
+            "type": "Etchings"
+          },
+          "Medium": {
+            "id": "0002",
+            "type": "Giclee"
+          },
+          "Medium": {
+            "id": "0003",
+            "type": "Hand-made Paper"
+          },
+          "Medium": {
+            "id": "0004",
+            "type": "Limited Edition"
+          },
+          "Medium": {
+            "id": "0005",
+            "type": "Linoleum"
+          },
+          "Medium": {
+            "id": "0006",
+            "type": "Lithographs"
+          },
+          "Medium": {
+            "id": "0007",
+            "type": "Mixed Media"
+          },
+          "Medium": {
+            "id": "0007",
+            "type": "Monoprint"
+          },
+          "Medium": {
+            "id": "0007",
+            "type": "Monotype"
+          },
+          "Medium": {
+            "id": "0007",
+            "type": "Woodblock"
+          },
+          "subjects": {
+            "subject": [
+              {
+                "id": "1001",
+                "type": "Abstract"
+              },
+              {
+                "id": "1002",
+                "type": "Allegorical"
+              },
+              {
+                "id": "1003",
+                "type": "Animals"
+              },
+              {
+                "id": "1004",
+                "type": "Animation"
+              },
+              {
+                "id": "1005",
+                "type": "Botanical"
+              },
+              {
+                "id": "1006",
+                "type": "Cityscape"
+              },
+              {
+                "id": "1007",
+                "type": "Color Field"
+              },
+              {
+                "id": "1008",
+                "type": "Conceptual"
+              },
+              {
+                "id": "1009",
+                "type": "Expressionist"
+              },
+              {
+                "id": "1010",
+                "type": "Fantasy"
+              },
+              {
+                "id": "1011",
+                "type": "Figurative"
+              },
+              {
+                "id": "1012",
+                "type": "Fine Art"
+              },
+              {
+                "id": "1013",
+                "type": "Floral"
+              },
+              {
+                "id": "1014",
+                "type": "Genre"
+              },
+              {
+                "id": "1015",
+                "type": "Graphic"
+              },
+              {
+                "id": "1016",
+                "type": "Illustration"
+              },
+              {
+                "id": "1017",
+                "type": "Impressionism"
+              },
+              {
+                "id": "1018",
+                "type": "Landscape"
+              },
+              {
+                "id": "1019",
+                "type": "Nude"
+              },
+              {
+                "id": "1020",
+                "type": "Photographic"
+              },
+              {
+                "id": "1021",
+                "type": "Photorealism"
+              },
+              {
+                "id": "1022",
+                "type": "Plein Air"
+              },
+              {
+                "id": "1023",
+                "type": "Political"
+              },
+              {
+                "id": "1024",
+                "type": "Pop Art"
+              },
+              {
+                "id": "1009",
+                "type": "Portrait"
+              },
+              {
+                "id": "1025",
+                "type": "Primitive"
+              },
+              {
+                "id": "1026",
+                "type": "Realism"
+              },
+              {
+                "id": "1027",
+                "type": "Seascape"
+              },
+              {
+                "id": "1028",
+                "type": "Southwestern"
+              },
+              {
+                "id": "1029",
+                "type": "Spiritual"
+              },
+              {
+                "id": "1030",
+                "type": "Sports"
+              },
+              {
+                "id": "1031",
+                "type": "Still Life"
+              },
+              {
+                "id": "1032",
+                "type": "Surrealism"
+              },
+              {
+                "id": "1033",
+                "type": "Symbolism"
+              },
+              {
+                "id": "1034",
+                "type": "Text based"
+              },
+              {
+                "id": "1035",
+                "type": "Dadaism"
+              },
+              {
+                "id": "1036",
+                "type": "Vorticism"
+              },
+              {
+                "id": "1037",
+                "type": "Decorative"
+              },
+              {
+                "id": "1038",
+                "type": "Fine Art"
+              },
+              {
+                "id": "1040",
+                "type": "Functional"
+              },
+              {
+                "id": "1041",
+                "type": "Narrative"
+              },
+              {
+                "id": "1042",
+                "type": "Studio"
+              },
+              {
+                "id": "1043",
+                "type": "Western"
+              },
+              {
+                "id": "1043",
+                "type": "Wildlife"
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

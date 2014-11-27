@@ -1,0 +1,69 @@
+{
+  "modelling-interest": [
+    {
+      "Id": 1,
+      "Name": "Fashion",
+      "Position": ""
+    },
+    {
+      "Id": 2,
+      "Name": "Glamour",
+      "Position": ""
+    },
+    {
+      "Id": 3,
+      "Name": "Hand/Leg/Feet",
+      "Position": ""
+    },
+    {
+      "Id": 4,
+      "Name": "Lingerie",
+      "Position": ""
+    },
+    {
+      "Id": 5,
+      "Name": "Nude",
+      "Position": ""
+    },
+    {
+      "Id": 6,
+      "Name": "Print - Advertising",
+      "Position": ""
+    },
+    {
+      "Id": 7,
+      "Name": "Print - Catalog",
+      "Position": ""
+    },
+    {
+      "Id": 8,
+      "Name": "Print - Editorial",
+      "Position": ""
+    },
+    {
+      "Id": 9,
+      "Name": "Print - Fitness",
+      "Position": ""
+    },
+    {
+      "Id": 10,
+      "Name": "Print - Swimwear",
+      "Position": ""
+    },
+    {
+      "Id": 11,
+      "Name": "Runway",
+      "Position": ""
+    },
+    {
+      "Id": 12,
+      "Name": "Spokesmodel",
+      "Position": ""
+    },
+    {
+      "Id": 13,
+      "Name": "TradeShow Model",
+      "Position": ""
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "facial-hair": [
+    {
+      "Id": 1,
+      "Name": "Beard - Cropped",
+      "Position": ""
+    },
+    {
+      "Id": 2,
+      "Name": "Beard - Full",
+      "Position": ""
+    },
+    {
+      "Id": 3,
+      "Name": "Goatee",
+      "Position": ""
+    },
+    {
+      "Id": 4,
+      "Name": "Moustache",
+      "Position": ""
+    },
+    {
+      "Id": 5,
+      "Name": "None",
+      "Position": ""
+    },
+    {
+      "Id": 6,
+      "Name": "Side Burns",
+      "Position": ""
+    },
+    {
+      "Id": 7,
+      "Name": "Soul Patch",
+      "Position": ""
+    }
+  ]
+}

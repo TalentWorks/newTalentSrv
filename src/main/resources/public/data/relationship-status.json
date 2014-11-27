@@ -1,0 +1,54 @@
+{
+  "relationship-status": [
+    {
+      "Id":1,
+      "name":"Single",
+      "Position":""
+    },
+    {
+      "Id":2,
+      "name":"In Relationship",
+      "Position":""
+    },
+    {
+      "Id":3,
+      "name":"Engaged",
+      "Position":""
+    },
+    {
+      "Id":4,
+      "name":"It's Complicated",
+      "Position":""
+    },
+    {
+      "Id":5,
+      "name":"In a open Relationship",
+      "Position":""
+    },
+    {
+      "Id":6,
+      "name":"Widowed",
+      "Position":""
+    },
+    {
+      "Id":7,
+      "name":"Separated",
+      "Position":""
+    },
+    {
+      "Id":8,
+      "name":"Divorced",
+      "Position":""
+    },
+    {
+      "Id":9,
+      "name":"In a civil union",
+      "Position":""
+    },
+    {
+      "Id":10,
+      "name":"In a domestic Partnership",
+      "Position":""
+    }
+  ]
+}

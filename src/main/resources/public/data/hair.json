@@ -1,0 +1,79 @@
+{
+  "hair-style": [
+    {
+      "Id": 1,
+      "Name": "Afro",
+      "Position": ""
+    },
+    {
+      "Id": 2,
+      "Name": "Bald - Completely",
+      "Position": ""
+    },
+    {
+      "Id": 3,
+      "Name": "Bald - On Top",
+      "Position": ""
+    },
+    {
+      "Id": 4,
+      "Name": "Dreadlocks",
+      "Position": ""
+    },
+    {
+      "Id": 5,
+      "Name": "Long - Curly",
+      "Position": ""
+    },
+    {
+      "Id": 6,
+      "Name": "Long - Straight",
+      "Position": ""
+    },
+    {
+      "Id": 7,
+      "Name": "Medium - Curly",
+      "Position": ""
+    },
+    {
+      "Id": 8,
+      "Name": "Medium - Straight",
+      "Position": ""
+    },
+    {
+      "Id": 9,
+      "Name": "Medium - Wavy",
+      "Position": ""
+    },
+    {
+      "Id": 10,
+      "Name": "Military",
+      "Position": ""
+    },
+    {
+      "Id": 11,
+      "Name": "Mohawk",
+      "Position": ""
+    },
+    {
+      "Id": 12,
+      "Name": "Shaved Head",
+      "Position": ""
+    },
+    {
+      "Id": 13,
+      "Name": "Short - Curly",
+      "Position": ""
+    },
+    {
+      "Id": 14,
+      "Name": "Short - Straight",
+      "Position": ""
+    },
+    {
+      "Id": 15,
+      "Name": "Wavy - Thick",
+      "Position": ""
+    }
+  ]
+}

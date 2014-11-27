@@ -1,0 +1,346 @@
+{
+  "professional-theater": [
+    {
+      "Id":1,
+      "Artist":"Theater",
+      "Style":"One man show",
+      "Position":""
+    },
+    {
+      "Id":2,
+      "Artist":"Theater",
+      "Style":"Artistic director",
+      "Position":""
+    },
+    {
+      "Id":3,
+      "Artist":"Theater",
+      "Style":"Assistant Stage manager: ",
+      "Position":""
+    },
+    {
+      "Id":4,
+      "Artist":"Theater",
+      "Style":"Call boy",
+      "Position":""
+    },
+    {
+      "Id":5,
+      "Artist":"Theater",
+      "Style":"Carpenter and Master Carpenter",
+      "Position":""
+    },
+    {
+      "Id":6,
+      "Artist":"Theater",
+      "Style":"Charge artist",
+      "Position":""
+    },
+    {
+      "Id":7,
+      "Artist":"Theater",
+      "Style":"Choreographer",
+      "Position":""
+    },
+    {
+      "Id":8,
+      "Artist":"Theater",
+      "Style":"Company manager",
+      "Position":""
+    },
+    {
+      "Id":9,
+      "Artist":"Theater",
+      "Style":"Costume designer",
+      "Position":""
+    },
+    {
+      "Id":10,
+      "Artist":"Theater",
+      "Style":"Costume Director",
+      "Position":""
+    },
+    {
+      "Id":11,
+      "Artist":"Theater",
+      "Style":"Deck Electrician",
+      "Position":""
+    },
+    {
+      "Id":12,
+      "Artist":"Theater",
+      "Style":"Director",
+      "Position":""
+    },
+    {
+      "Id":13,
+      "Artist":"Theater",
+      "Style":"Director of Audience Services",
+      "Position":""
+    },
+    {
+      "Id":14,
+      "Artist":"Theater",
+      "Style":"Director of development",
+      "Position":""
+    },
+    {
+      "Id":15,
+      "Artist":"Theater",
+      "Style":"Director of Production",
+      "Position":""
+    },
+    {
+      "Id":16,
+      "Artist":"Theater",
+      "Style":"Director of Public Relations",
+      "Position":""
+    },
+    {
+      "Id":17,
+      "Artist":"Theater",
+      "Style":"Director of Special Events",
+      "Position":""
+    },
+    {
+      "Id":18,
+      "Artist":"Theater",
+      "Style":"Dramaturg",
+      "Position":""
+    },
+    {
+      "Id":19,
+      "Artist":"Theater",
+      "Style":"Dressers",
+      "Position":""
+    },
+    {
+      "Id":20,
+      "Artist":"Theater",
+      "Style":"Electrician",
+      "Position":""
+    },
+    {
+      "Id":21,
+      "Artist":"Theater",
+      "Style":"Fly crew (operates theatrical Counterweight fly system)",
+      "Position":""
+    },
+    {
+      "Id":22,
+      "Artist":"Theater",
+      "Style":"Flymen ",
+      "Position":""
+    },
+    {
+      "Id":23,
+      "Artist":"Theater",
+      "Style":"Front of House",
+      "Position":""
+    },
+    {
+      "Id":24,
+      "Artist":"Theater",
+      "Style":"House manager",
+      "Position":""
+    },
+    {
+      "Id":25,
+      "Artist":"Theater",
+      "Style":"Light board operator",
+      "Position":""
+    },
+    {
+      "Id":26,
+      "Artist":"Theater",
+      "Style":"Lighting designer",
+      "Position":""
+    },
+    {
+      "Id":27,
+      "Artist":"Theater",
+      "Style":"Literary Manager",
+      "Position":""
+    },
+    {
+      "Id":28,
+      "Artist":"Theater",
+      "Style":"Make-up",
+      "Position":""
+    },
+    {
+      "Id":29,
+      "Artist":"Theater",
+      "Style":"Managing director or General manager",
+      "Position":""
+    },
+    {
+      "Id":30,
+      "Artist":"Theater",
+      "Style":"Marketing Director",
+      "Position":""
+    },
+    {
+      "Id":31,
+      "Artist":"Theater",
+      "Style":"Master Electrician",
+      "Position":""
+    },
+    {
+      "Id":32,
+      "Artist":"Theater",
+      "Style":"Mic wrangler",
+      "Position":""
+    },
+    {
+      "Id":33,
+      "Artist":"Theater",
+      "Style":"Paint Crew",
+      "Position":""
+    },
+    {
+      "Id":34,
+      "Artist":"Theater",
+      "Style":"Playbill writer",
+      "Position":""
+    },
+    {
+      "Id":35,
+      "Artist":"Theater",
+      "Style":"Playwright",
+      "Position":""
+    },
+    {
+      "Id":36,
+      "Artist":"Theater",
+      "Style":"Producer",
+      "Position":""
+    },
+    {
+      "Id":37,
+      "Artist":"Theater",
+      "Style":"Production Co-ordinator",
+      "Position":""
+    },
+    {
+      "Id":38,
+      "Artist":"Theater",
+      "Style":"Production manager",
+      "Position":""
+    },
+    {
+      "Id":39,
+      "Artist":"Theater",
+      "Style":"Prop",
+      "Position":""
+    },
+    {
+      "Id":40,
+      "Artist":"Theater",
+      "Style":"Publicist",
+      "Position":""
+    },
+    {
+      "Id":41,
+      "Artist":"Theater",
+      "Style":"Running crew",
+      "Position":""
+    },
+    {
+      "Id":42,
+      "Artist":"Theater",
+      "Style":"Scenic artist",
+      "Position":""
+    },
+    {
+      "Id":43,
+      "Artist":"Theater",
+      "Style":"Scenic designer",
+      "Position":""
+    },
+    {
+      "Id":44,
+      "Artist":"Theater",
+      "Style":"Show control designer",
+      "Position":""
+    },
+    {
+      "Id":45,
+      "Artist":"Theater",
+      "Style":"Sound designer",
+      "Position":""
+    },
+    {
+      "Id":46,
+      "Artist":"Theater",
+      "Style":"Sound operator",
+      "Position":""
+    },
+    {
+      "Id":47,
+      "Artist":"Theater",
+      "Style":"Sound operator or Production engineer",
+      "Position":""
+    },
+    {
+      "Id":48,
+      "Artist":"Theater",
+      "Style":"Spotlight operator",
+      "Position":""
+    },
+    {
+      "Id":49,
+      "Artist":"Theater",
+      "Style":"Stage Manager",
+      "Position":""
+    },
+    {
+      "Id":50,
+      "Artist":"Theater",
+      "Style":"Stagehand:",
+      "Position":""
+    },
+    {
+      "Id":51,
+      "Artist":"Theater",
+      "Style":"Technical Director",
+      "Position":""
+    },
+    {
+      "Id":52,
+      "Artist":"Theater",
+      "Style":"Theatrical technician",
+      "Position":""
+    },
+    {
+      "Id":53,
+      "Artist":"Theater",
+      "Style":"Unionized Stagehands (IATSE)",
+      "Position":""
+    },
+    {
+      "Id":54,
+      "Artist":"Theater",
+      "Style":"Wardrobe",
+      "Position":""
+    },
+    {
+      "Id":55,
+      "Artist":"Theater",
+      "Style":"Wardrobe Supervisor",
+      "Position":""
+    },
+    {
+      "Id":56,
+      "Artist":"Theater",
+      "Style":"Wigs/Makeup",
+      "Position":""
+    },
+    {
+      "Id":57,
+      "Artist":"Theater",
+      "Style":"Writer",
+      "Position":""
+    }
+  ]
+}

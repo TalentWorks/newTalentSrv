@@ -1,0 +1,34 @@
+{
+  "physique": [
+    {
+      "Id": 1,
+      "Name": "Athletic/Fit",
+      "Position": ""
+    },
+    {
+      "Id": 2,
+      "Name": "Average",
+      "Position": ""
+    },
+    {
+      "Id": 3,
+      "Name": "Large",
+      "Position": ""
+    },
+    {
+      "Id": 4,
+      "Name": "Muscular",
+      "Position": ""
+    },
+    {
+      "Id": 5,
+      "Name": "Petite",
+      "Position": ""
+    },
+    {
+      "Id": 6,
+      "Name": "Thin",
+      "Position": ""
+    }
+  ]
+}

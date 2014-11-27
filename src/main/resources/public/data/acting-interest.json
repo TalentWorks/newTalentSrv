@@ -1,0 +1,34 @@
+{
+  "acting-interest": [
+    {
+      "Id": 1,
+      "Name": "Drama",
+      "Position": ""
+    },
+    {
+      "Id": 2,
+      "Name": "Comedy",
+      "Position": ""
+    },
+    {
+      "Id": 3,
+      "Name": "Mystery",
+      "Position": ""
+    },
+    {
+      "Id": 4,
+      "Name": "Thriller",
+      "Position": ""
+    },
+    {
+      "Id": 5,
+      "Name": "Other",
+      "Position": ""
+    },
+    {
+      "Id": 6,
+      "Name": "Musical",
+      "Position": ""
+    }
+  ]
+}

@@ -1,0 +1,319 @@
+{
+  "singing-voice": [
+  {
+    "Id":1,
+    "Artist":"Singer",
+    "Voice Type":"Alto",
+    "Singing Style":"A Cappella",
+    "Position":""
+  },
+  {
+    "Id":2,
+    "Artist":"Singer",
+    "Voice Type":"Alto/Soprano",
+    "Singing Style":"Aria",
+    "Position":""
+  },
+  {
+    "Id":3,
+    "Artist":"Singer",
+    "Voice Type":"Baritenor",
+    "Singing Style":"Beat boxing",
+    "Position":""
+  },
+  {
+    "Id":4,
+    "Artist":"Singer",
+    "Voice Type":"Baritone",
+    "Singing Style":"Bel canto",
+    "Position":""
+  },
+  {
+    "Id":5,
+    "Artist":"Singer",
+    "Voice Type":"Lyric Baritone",
+    "Singing Style":"Belt (music)",
+    "Position":""
+  },
+  {
+    "Id":6,
+    "Artist":"Singer",
+    "Voice Type":"Bass (voice type)",
+    "Singing Style":"Black Metal",
+    "Position":""
+  },
+  {
+    "Id":7,
+    "Artist":"Singer",
+    "Voice Type":"Bass-baritone",
+    "Singing Style":"Bluegrass",
+    "Position":""
+  },
+  {
+    "Id":8,
+    "Artist":"Singer",
+    "Voice Type":"Basso profondo",
+    "Singing Style":"Blues",
+    "Position":""
+  },
+  {
+    "Id":9,
+    "Artist":"Singer",
+    "Voice Type":"Boy soprano",
+    "Singing Style":"Calypso / Reggae",
+    "Position":""
+  },
+  {
+    "Id":10,
+    "Artist":"Singer",
+    "Voice Type":"Castrato",
+    "Singing Style":"Chanson",
+    "Position":""
+  },
+  {
+    "Id":11,
+    "Artist":"Singer",
+    "Voice Type":"Coloratura soprano",
+    "Singing Style":"Chiaroscuro (music)",
+    "Position":""
+  },
+  {
+    "Id":12,
+    "Artist":"Singer",
+    "Voice Type":"Contralto",
+    "Singing Style":"Choral / Choir",
+    "Position":""
+  },
+  {
+    "Id":13,
+    "Artist":"Singer",
+    "Voice Type":"Convenienze",
+    "Singing Style":"Classical",
+    "Position":""
+  },
+  {
+    "Id":14,
+    "Artist":"Singer",
+    "Voice Type":"Countertenor",
+    "Singing Style":"Country Western",
+    "Position":""
+  },
+  {
+    "Id":15,
+    "Artist":"Singer",
+    "Voice Type":"Dramatic soprano",
+    "Singing Style":"Death growl",
+    "Position":""
+  },
+  {
+    "Id":16,
+    "Artist":"Singer",
+    "Voice Type":"Fach",
+    "Singing Style":"Fach",
+    "Position":""
+  },
+  {
+    "Id":17,
+    "Artist":"Singer",
+    "Voice Type":"Haute-contre",
+    "Singing Style":"Folk",
+    "Position":""
+  },
+  {
+    "Id":18,
+    "Artist":"Singer",
+    "Voice Type":"Heldenbaritone",
+    "Singing Style":"Gospel",
+    "Position":""
+  },
+  {
+    "Id":19,
+    "Artist":"Singer",
+    "Voice Type":"Lyric soprano",
+    "Singing Style":"Group singing",
+    "Position":""
+  },
+  {
+    "Id":20,
+    "Artist":"Singer",
+    "Voice Type":"Mezzo-soprano",
+    "Singing Style":"Heavy Metal",
+    "Position":""
+  },
+  {
+    "Id":21,
+    "Artist":"Singer",
+    "Voice Type":"Musico",
+    "Singing Style":"Human voice",
+    "Position":""
+  },
+  {
+    "Id":22,
+    "Artist":"Singer",
+    "Voice Type":"Oktavist",
+    "Singing Style":"Humming",
+    "Position":""
+  },
+  {
+    "Id":23,
+    "Artist":"Singer",
+    "Voice Type":"Quintus (vocal music)",
+    "Singing Style":"Jazz",
+    "Position":""
+  },
+  {
+    "Id":24,
+    "Artist":"Singer",
+    "Voice Type":"Sopranist",
+    "Singing Style":"Lead vocalist",
+    "Position":""
+  },
+  {
+    "Id":25,
+    "Artist":"Singer",
+    "Voice Type":"Soprano",
+    "Singing Style":"Metalcore",
+    "Position":""
+  },
+  {
+    "Id":26,
+    "Artist":"Singer",
+    "Voice Type":"Soprano sfogato",
+    "Singing Style":"Musical Theatre",
+    "Position":""
+  },
+  {
+    "Id":27,
+    "Artist":"Singer",
+    "Voice Type":"Soubrette",
+    "Singing Style":"Opera",
+    "Position":""
+  },
+  {
+    "Id":28,
+    "Artist":"Singer",
+    "Voice Type":"Spinto",
+    "Singing Style":"Other",
+    "Position":""
+  },
+  {
+    "Id":29,
+    "Artist":"Singer",
+    "Voice Type":"Spinto soprano",
+    "Singing Style":"Overtone singing",
+    "Position":""
+  },
+  {
+    "Id":30,
+    "Artist":"Singer",
+    "Voice Type":"Tenor",
+    "Singing Style":"Punk Rock",
+    "Position":""
+  },
+  {
+    "Id":31,
+    "Artist":"Singer",
+    "Voice Type":"Tenor I",
+    "Singing Style":"R&B / Blues",
+    "Position":""
+  },
+  {
+    "Id":32,
+    "Artist":"Singer",
+    "Voice Type":"Tenor II",
+    "Singing Style":"Rap",
+    "Position":""
+  },
+  {
+    "Id":33,
+    "Artist":"Singer",
+    "Voice Type":"Tenore contraltino",
+    "Singing Style":"Recitative",
+    "Position":""
+  },
+  {
+    "Id":34,
+    "Artist":"Singer",
+    "Voice Type":"Tenore di grazia",
+    "Singing Style":"Rock / Pop",
+    "Position":""
+  },
+  {
+    "Id":35,
+    "Artist":"Singer",
+    "Voice Type":"Voice classification in non-classical music",
+    "Singing Style":"Screaming (music)",
+    "Position":""
+  },
+  {
+    "Id":36,
+    "Artist":"Singer",
+    "Voice Type":"Voice type",
+    "Singing Style":"Singer–songwriter",
+    "Position":""
+  },
+  {
+    "Id":37,
+    "Artist":"Singer",
+    "Voice Type":"",
+    "Singing Style":"Soul",
+    "Position":""
+  },
+  {
+    "Id":38,
+    "Artist":"Singer",
+    "Voice Type":"",
+    "Singing Style":"Sprechgesang",
+    "Position":""
+  },
+  {
+    "Id":39,
+    "Artist":"Singer",
+    "Voice Type":"",
+    "Singing Style":"Throat singing",
+    "Position":""
+  },
+  {
+    "Id":40,
+    "Artist":"Singer",
+    "Voice Type":"",
+    "Singing Style":"Vocoder",
+    "Position":""
+  },
+  {
+    "Id":41,
+    "Artist":"Singer",
+    "Voice Type":"",
+    "Singing Style":"Voice pedagogy",
+    "Position":""
+  },
+  {
+    "Id":42,
+    "Artist":"Singer",
+    "Voice Type":"",
+    "Singing Style":"Voice projection",
+    "Position":""
+  },
+  {
+    "Id":43,
+    "Artist":"Singer",
+    "Voice Type":"",
+    "Singing Style":"Voice type",
+    "Position":""
+  },
+  {
+    "Id":44,
+    "Artist":"Singer",
+    "Voice Type":"",
+    "Singing Style":"Winsingad",
+    "Position":""
+  },
+  {
+    "Id":45,
+    "Artist":"Singer",
+    "Voice Type":"",
+    "Singing Style":"Yodeling",
+    "Position":""
+  }
+]
+}

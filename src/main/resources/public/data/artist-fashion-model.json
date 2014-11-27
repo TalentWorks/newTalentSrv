@@ -1,0 +1,118 @@
+{
+  "fashion-model": [
+  {
+    "Id":1,
+    "Artist":"Fashion Model",
+    "Model-Style":"Type",
+    "Position":""
+  },
+  {
+    "Id":2,
+    "Artist":"Fashion Model",
+    "Model-Style":"Ediorial",
+    "Position":""
+  },
+  {
+    "Id":3,
+    "Artist":"Fashion Model",
+    "Model-Style":"Runway",
+    "Position":""
+  },
+  {
+    "Id":4,
+    "Artist":"Fashion Model",
+    "Model-Style":"Catalog",
+    "Position":""
+  },
+  {
+    "Id":5,
+    "Artist":"Fashion Model",
+    "Model-Style":"Print",
+    "Position":""
+  },
+  {
+    "Id":6,
+    "Artist":"Fashion Model",
+    "Model-Style":"ShowRoom",
+    "Position":""
+  },
+  {
+    "Id":7,
+    "Artist":"Fashion Model",
+    "Model-Style":"Bathing Suit",
+    "Position":""
+  },
+  {
+    "Id":8,
+    "Artist":"Fashion Model",
+    "Model-Style":"Fitness",
+    "Position":""
+  },
+  {
+    "Id":9,
+    "Artist":"Fashion Model",
+    "Model-Style":"Fit Model",
+    "Position":""
+  },
+  {
+    "Id":10,
+    "Artist":"Body Part",
+    "Model-Style":"Skin",
+    "Position":""
+  },
+  {
+    "Id":11,
+    "Artist":"Commercial",
+    "Model-Style":"Product",
+    "Position":""
+  },
+  {
+    "Id":12,
+    "Artist":"Commercial",
+    "Model-Style":"Lifestyle",
+    "Position":""
+  },
+  {
+    "Id":13,
+    "Artist":"Commercial",
+    "Model-Style":"Corporate",
+    "Position":""
+  },
+  {
+    "Id":14,
+    "Artist":"Commercial",
+    "Model-Style":"Product Demo",
+    "Position":""
+  },
+  {
+    "Id":15,
+    "Artist":"Commercial",
+    "Model-Style":"Trade Show",
+    "Position":""
+  },
+  {
+    "Id":16,
+    "Artist":"Commercial",
+    "Model-Style":"sport/Athetically Profiency/ Fitness",
+    "Position":""
+  },
+  {
+    "Id":17,
+    "Artist":"Commercial",
+    "Model-Style":"Hobby",
+    "Position":""
+  },
+  {
+    "Id":18,
+    "Artist":"Commercial",
+    "Model-Style":"Alternative",
+    "Position":""
+  },
+  {
+    "Id":19,
+    "Artist":"Commercial",
+    "Model-Style":"Warm Body",
+    "Position":""
+  }
+]
+}

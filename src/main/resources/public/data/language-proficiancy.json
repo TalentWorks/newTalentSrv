@@ -1,0 +1,29 @@
+{
+  "language-proficiency": [
+    {
+      "Id": 1,
+      "Name": "Elementary",
+      "Position": ""
+    },
+    {
+      "Id": 2,
+      "Name": "Limited Working",
+      "Position": ""
+    },
+    {
+      "Id": 3,
+      "Name": "Professionally Working",
+      "Position": ""
+    },
+    {
+      "Id": 4,
+      "Name": "Full Professional ",
+      "Position": ""
+    },
+    {
+      "Id": 5,
+      "Name": "Native or Bilingual",
+      "Position": ""
+    }
+  ]
+}

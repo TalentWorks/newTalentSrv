@@ -1,0 +1,64 @@
+{
+  "character-type": [
+    {
+      "Id": 1,
+      "Name": "Athlete",
+      "Position": ""
+    },
+    {
+      "Id": 2,
+      "Name": "Blue Collar",
+      "Position": ""
+    },
+    {
+      "Id": 3,
+      "Name": "Character",
+      "Position": ""
+    },
+    {
+      "Id": 4,
+      "Name": "Ingenue",
+      "Position": ""
+    },
+    {
+      "Id": 5,
+      "Name": "Leading Man",
+      "Position": ""
+    },
+    {
+      "Id": 6,
+      "Name": "Leading Woman",
+      "Position": ""
+    },
+    {
+      "Id": 7,
+      "Name": "Model",
+      "Position": ""
+    },
+    {
+      "Id": 8,
+      "Name": "Precision Driver",
+      "Position": ""
+    },
+    {
+      "Id": 9,
+      "Name": "Stunt Person",
+      "Position": ""
+    },
+    {
+      "Id": 10,
+      "Name": "Triplet",
+      "Position": ""
+    },
+    {
+      "Id": 11,
+      "Name": "Twin",
+      "Position": ""
+    },
+    {
+      "Id": 12,
+      "Name": "White Collar",
+      "Position": ""
+    }
+  ]
+}

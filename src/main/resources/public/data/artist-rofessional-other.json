@@ -1,0 +1,208 @@
+{
+  "professional-other": [
+    {
+      "Id": 1,
+      "Artist": "Professional Other",
+      "Style": "Acting Studios",
+      "Position": ""
+    },
+    {
+      "Id": 2,
+      "Artist": "Professional Other",
+      "Style": "Animation",
+      "Position": ""
+    },
+    {
+      "Id": 3,
+      "Artist": "Professional Other",
+      "Style": "Announcer",
+      "Position": ""
+    },
+    {
+      "Id": 4,
+      "Artist": "Professional Other",
+      "Style": "Art Administrator  ",
+      "Position": ""
+    },
+    {
+      "Id": 5,
+      "Artist": "Professional Other",
+      "Style": "Art Designer  ",
+      "Position": ""
+    },
+    {
+      "Id": 6,
+      "Artist": "Professional Other",
+      "Style": "Coaches",
+      "Position": ""
+    },
+    {
+      "Id": 7,
+      "Artist": "Professional Other",
+      "Style": "Commercial Character Design",
+      "Position": ""
+    },
+    {
+      "Id": 8,
+      "Artist": "Professional Other",
+      "Style": "Computer art",
+      "Position": ""
+    },
+    {
+      "Id": 9,
+      "Artist": "Professional Other",
+      "Style": "Content Writer  ",
+      "Position": ""
+    },
+    {
+      "Id": 10,
+      "Artist": "Professional Other",
+      "Style": "Desktop Publisher  ",
+      "Position": ""
+    },
+    {
+      "Id": 11,
+      "Artist": "Professional Other",
+      "Style": "Fashion Designer",
+      "Position": ""
+    },
+    {
+      "Id": 12,
+      "Artist": "Professional Other",
+      "Style": "Freelance Writer  ",
+      "Position": ""
+    },
+    {
+      "Id": 13,
+      "Artist": "Professional Other",
+      "Style": "Graphic Artist  ",
+      "Position": ""
+    },
+    {
+      "Id": 14,
+      "Artist": "Professional Other",
+      "Style": "Graphic design",
+      "Position": ""
+    },
+    {
+      "Id": 15,
+      "Artist": "Professional Other",
+      "Style": "Graphics Production Artist  ",
+      "Position": ""
+    },
+    {
+      "Id": 16,
+      "Artist": "Professional Other",
+      "Style": "Hosting",
+      "Position": ""
+    },
+    {
+      "Id": 17,
+      "Artist": "Professional Other",
+      "Style": "Illustration",
+      "Position": ""
+    },
+    {
+      "Id": 18,
+      "Artist": "Professional Other",
+      "Style": "Industrial Design",
+      "Position": ""
+    },
+    {
+      "Id": 19,
+      "Artist": "Professional Other",
+      "Style": "Interior Design",
+      "Position": ""
+    },
+    {
+      "Id": 20,
+      "Artist": "Professional Other",
+      "Style": "Interior Designer  ",
+      "Position": ""
+    },
+    {
+      "Id": 21,
+      "Artist": "Professional Other",
+      "Style": "Journalist  ",
+      "Position": ""
+    },
+    {
+      "Id": 22,
+      "Artist": "Professional Other",
+      "Style": "Master of Ceremony",
+      "Position": ""
+    },
+    {
+      "Id": 23,
+      "Artist": "Professional Other",
+      "Style": "Motion graphic design",
+      "Position": ""
+    },
+    {
+      "Id": 24,
+      "Artist": "Professional Other",
+      "Style": "Music videos",
+      "Position": ""
+    },
+    {
+      "Id": 25,
+      "Artist": "Professional Other",
+      "Style": "Musical Theather",
+      "Position": ""
+    },
+    {
+      "Id": 26,
+      "Artist": "Professional Other",
+      "Style": "News Producer  ",
+      "Position": ""
+    },
+    {
+      "Id": 27,
+      "Artist": "Professional Other",
+      "Style": "Newscasting",
+      "Position": ""
+    },
+    {
+      "Id": 28,
+      "Artist": "Professional Other",
+      "Style": "Photography",
+      "Position": ""
+    },
+    {
+      "Id": 29,
+      "Artist": "Professional Other",
+      "Style": "Press Agent",
+      "Position": ""
+    },
+    {
+      "Id": 30,
+      "Artist": "Professional Other",
+      "Style": "Technical Editor  ",
+      "Position": ""
+    },
+    {
+      "Id": 31,
+      "Artist": "Professional Other",
+      "Style": "Teleprompter",
+      "Position": ""
+    },
+    {
+      "Id": 32,
+      "Artist": "Professional Other",
+      "Style": "Television commercials",
+      "Position": ""
+    },
+    {
+      "Id": 33,
+      "Artist": "Professional Other",
+      "Style": "Voice Training",
+      "Position": ""
+    },
+    {
+      "Id": 34,
+      "Artist": "Professional Other",
+      "Style": "Writer Editor  ",
+      "Position": ""
+    }
+  ]
+}

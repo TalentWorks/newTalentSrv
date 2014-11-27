@@ -1,0 +1,54 @@
+{
+  "eye-color": [
+    {
+      "Id": 1,
+      "Name": "Blue",
+      "Position": ""
+    },
+    {
+      "Id": 2,
+      "Name": "Blue/Green",
+      "Position": ""
+    },
+    {
+      "Id": 3,
+      "Name": "Brown",
+      "Position": ""
+    },
+    {
+      "Id": 4,
+      "Name": "Dark Brown",
+      "Position": ""
+    },
+    {
+      "Id": 5,
+      "Name": "Green",
+      "Position": ""
+    },
+    {
+      "Id": 6,
+      "Name": "Grey",
+      "Position": ""
+    },
+    {
+      "Id": 7,
+      "Name": "Hazel",
+      "Position": ""
+    },
+    {
+      "Id": 8,
+      "Name": "Light Blue",
+      "Position": ""
+    },
+    {
+      "Id": 9,
+      "Name": "Light Brown",
+      "Position": ""
+    },
+    {
+      "Id": 10,
+      "Name": "Violet",
+      "Position": ""
+    }
+  ]
+}

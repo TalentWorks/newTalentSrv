@@ -1,0 +1,104 @@
+{
+  "wish-list": [
+    {
+      "Id": 1,
+      "Name": "Comedy",
+      "Position": ""
+    },
+    {
+      "Id": 2,
+      "Name": "Commercials",
+      "Position": ""
+    },
+    {
+      "Id": 3,
+      "Name": "Corporate",
+      "Position": ""
+    },
+    {
+      "Id": 4,
+      "Name": "Film (Professional)",
+      "Position": ""
+    },
+    {
+      "Id": 5,
+      "Name": "Film (Student)",
+      "Position": ""
+    },
+    {
+      "Id": 6,
+      "Name": "Improvisation",
+      "Position": ""
+    },
+    {
+      "Id": 7,
+      "Name": "Modelling",
+      "Position": ""
+    },
+    {
+      "Id": 8,
+      "Name": "Music Videos",
+      "Position": ""
+    },
+    {
+      "Id": 9,
+      "Name": "Panto",
+      "Position": ""
+    },
+    {
+      "Id": 10,
+      "Name": "Presenting",
+      "Position": ""
+    },
+    {
+      "Id": 11,
+      "Name": "Radio",
+      "Position": ""
+    },
+    {
+      "Id": 12,
+      "Name": "Reheased Readings",
+      "Position": ""
+    },
+    {
+      "Id": 13,
+      "Name": "Roleplay",
+      "Position": ""
+    },
+    {
+      "Id": 14,
+      "Name": "Teaching Theatre",
+      "Position": ""
+    },
+    {
+      "Id": 15,
+      "Name": "Theatre (Fringe)",
+      "Position": ""
+    },
+    {
+      "Id": 16,
+      "Name": "Theatre (Professional)",
+      "Position": ""
+    },
+    {
+      "Id": 17,
+      "Name": "Theatre (Touring)",
+      "Position": ""
+    },
+    {
+      "Id": 18,
+      "Name": "TIE/TYA",
+      "Position": ""
+    },
+    {
+      "Id": 19,
+      "Name": "TV",
+      "Position": ""
+    },
+    {
+      "Id": 20,
+      "Name": "Voice Over",
+      "Position": ""
+    }
+  ]
+}

@@ -15,17 +15,16 @@ public class HttpRouter extends Verticle {
     Yoke yoke = new Yoke(vertx)
         .use(new ErrorHandler(false))                     // Handle errors. See http://pmlopes.github.io/yoke/ErrorHandler.html
         .use(new Limit(4096))                             // Limit size of request body
-//        .use(new Compress())                              // Enable gzip compression - Disabled due to a Yoke bug
         .use(new Cors(null, null, null, null, false))     // Enable CORS for all origins
         .use(new Logger())                                // Log requests
-//        .use(new BasicAuth(new BasicAuthenticationHandler()::handle))
+        .use(new Static("public", 180, false, false))
         .use(new BodyParser());                           // Parse request body
 
     IController controller = new UsersController(vertx);
 
     yoke.use(new Router()
-      .all("/api/users", controller::handleCollection)
-      .all("/api/users/:id", controller::handleItem)
+            .all("/api/users", controller::handleCollection)
+            .all("/api/users/:id", controller::handleItem)
     );
 
     yoke.listen(getPort(), getHost());

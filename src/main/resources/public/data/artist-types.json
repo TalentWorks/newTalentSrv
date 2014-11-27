@@ -1,0 +1,82 @@
+{
+  "artist-type": [
+    {
+      "Id": 1,
+      "Artist": "Artist type",
+      "Type": "Actor",
+      "Position": ""
+    },
+    {
+      "Id": 2,
+      "Artist": "Artist type",
+      "Type": "Musician",
+      "Position": ""
+    },
+    {
+      "Id": 3,
+      "Artist": "Artist type",
+      "Type": "Singer",
+      "Position": ""
+    },
+    {
+      "Id": 4,
+      "Artist": "Artist type",
+      "Type": "Dancer",
+      "Position": ""
+    },
+    {
+      "Id": 5,
+      "Artist": "Artist type",
+      "Type": "Entertainer",
+      "Position": ""
+    },
+    {
+      "Id": 6,
+      "Artist": "Artist type",
+      "Type": "Fashion Model",
+      "Position": ""
+    },
+    {
+      "Id": 7,
+      "Artist": "Artist type",
+      "Type": "Visual Arts",
+      "Position": ""
+    },
+    {
+      "Id": 8,
+      "Artist": "Artist type",
+      "Type": "Professional Theater",
+      "Position": ""
+    },
+    {
+      "Id": 9,
+      "Artist": "Artist type",
+      "Type": "Professional Film",
+      "Position": ""
+    },
+    {
+      "Id": 10,
+      "Artist": "Artist type",
+      "Type": "Professional Fashion",
+      "Position": ""
+    },
+    {
+      "Id": 11,
+      "Artist": "Artist type",
+      "Type": "Professional Music",
+      "Position": ""
+    },
+    {
+      "Id": 12,
+      "Artist": "Artist type",
+      "Type": "Professional Other",
+      "Position": ""
+    },
+    {
+      "Id": 13,
+      "Artist": "Artist type",
+      "Type": "Professional TV",
+      "Position": ""
+    }
+  ]
+}

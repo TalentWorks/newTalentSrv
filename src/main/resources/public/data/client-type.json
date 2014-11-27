@@ -1,0 +1,24 @@
+{
+  "client-type": [
+    {
+      "Id": 1,
+      "Name": "Artist",
+      "Position": ""
+    },
+    {
+      "Id": 2,
+      "Name": "Service Provider",
+      "Position": ""
+    },
+    {
+      "Id": 3,
+      "Name": "Agent",
+      "Position": ""
+    },
+    {
+      "Id": 4,
+      "Name": "Employer ",
+      "Position": ""
+    }
+  ]
+}

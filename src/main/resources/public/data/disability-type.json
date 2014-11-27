@@ -1,0 +1,109 @@
+{
+  "disability-type": [
+    {
+      "Id": 1,
+      "Name": "Any Disability",
+      "Position": ""
+    },
+    {
+      "Id": 2,
+      "Name": "Arm Amputee",
+      "Position": ""
+    },
+    {
+      "Id": 3,
+      "Name": "Attention Deficit Disorder (ADD)",
+      "Position": ""
+    },
+    {
+      "Id": 4,
+      "Name": "Autism",
+      "Position": ""
+    },
+    {
+      "Id": 5,
+      "Name": "Blind / Visually Impaired",
+      "Position": ""
+    },
+    {
+      "Id": 6,
+      "Name": "Cerebral Palsy",
+      "Position": ""
+    },
+    {
+      "Id": 7,
+      "Name": "Deaf / Hearing Impaired",
+      "Position": ""
+    },
+    {
+      "Id": 8,
+      "Name": "Developmental Disability",
+      "Position": ""
+    },
+    {
+      "Id": 9,
+      "Name": "Down syndrome",
+      "Position": ""
+    },
+    {
+      "Id": 10,
+      "Name": "Facial Difference",
+      "Position": ""
+    },
+    {
+      "Id": 11,
+      "Name": "Hyperactivity Disorder (HD)",
+      "Position": ""
+    },
+    {
+      "Id": 12,
+      "Name": "Invisible Disability",
+      "Position": ""
+    },
+    {
+      "Id": 13,
+      "Name": "Leg Amputee",
+      "Position": ""
+    },
+    {
+      "Id": 14,
+      "Name": "Little Person",
+      "Position": ""
+    },
+    {
+      "Id": 15,
+      "Name": "Mobility Impaired / Cane",
+      "Position": ""
+    },
+    {
+      "Id": 16,
+      "Name": "Mobility Impaired / Crutches",
+      "Position": ""
+    },
+    {
+      "Id": 17,
+      "Name": "Mobility Impaired / Forearm Crutches",
+      "Position": ""
+    },
+    {
+      "Id": 18,
+      "Name": "Mobility Impaired / Limp",
+      "Position": ""
+    },
+    {
+      "Id": 19,
+      "Name": "Mobility Impaired / Walker",
+      "Position": ""
+    },
+    {
+      "Id": 20,
+      "Name": "Mobility Impaired / Wheelchair User",
+      "Position": ""
+    },
+    {
+      "Id": 21,
+      "Name": "Tourette syndrome",
+      "Position": ""
+    }
+  ]
+}

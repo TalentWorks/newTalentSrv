@@ -1,0 +1,214 @@
+{
+  "production-categories": [
+    {
+      "Id": 1,
+      "Artist": "Production Categories",
+      "style": "Cabaret & Variety    ",
+      "Position": ""
+    },
+    {
+      "Id": 2,
+      "Artist": "Production Categories",
+      "style": "Commercials & Industrials    ",
+      "Position": ""
+    },
+    {
+      "Id": 3,
+      "Artist": "Production  Categories",
+      "style": "Cruise Lines",
+      "Position": ""
+    },
+    {
+      "Id": 4,
+      "Artist": "Production Categories",
+      "style": "Entertainment Jobs",
+      "Position": ""
+    },
+    {
+      "Id": 5,
+      "Artist": "Production Categories",
+      "style": "Film/TV Crew",
+      "Position": ""
+    },
+    {
+      "Id": 6,
+      "Artist": "Production Categories",
+      "style": "Modeling",
+      "Position": ""
+    },
+    {
+      "Id": 7,
+      "Artist": "Production Categories",
+      "style": "Music Video",
+      "Position": ""
+    },
+    {
+      "Id": 8,
+      "Artist": "Production Categories",
+      "style": "Nonunion Film",
+      "Position": ""
+    },
+    {
+      "Id": 9,
+      "Artist": "Production Categories",
+      "style": "Nonunion Stage",
+      "Position": ""
+    },
+    {
+      "Id": 10,
+      "Artist": "Production Categories",
+      "style": "Reality TV & Documentary",
+      "Position": ""
+    },
+    {
+      "Id": 11,
+      "Artist": "Production Categories",
+      "style": "Stage Staff & Tech",
+      "Position": ""
+    },
+    {
+      "Id": 12,
+      "Artist": "Production Categories",
+      "style": "Theme Parks",
+      "Position": ""
+    },
+    {
+      "Id": 13,
+      "Artist": "Production Categories",
+      "style": "Union Chorus Calls",
+      "Position": ""
+    },
+    {
+      "Id": 14,
+      "Artist": "Production Categories",
+      "style": "Union Musicals",
+      "Position": ""
+    },
+    {
+      "Id": 15,
+      "Artist": "Production Categories",
+      "style": "Union TV/Video",
+      "Position": ""
+    },
+    {
+      "Id": 16,
+      "Artist": "Production Categories",
+      "style": "Union/Nonunion Musicals",
+      "Position": ""
+    },
+    {
+      "Id": 17,
+      "Artist": "Production Categories",
+      "style": "Union/Nonunion TV/Video",
+      "Position": ""
+    },
+    {
+      "Id": 18,
+      "Artist": "Production Categories",
+      "style": "Writers & Scripts",
+      "Position": ""
+    },
+    {
+      "Id": 19,
+      "Artist": "Production Categories",
+      "style": "Comedy & Improv",
+      "Position": ""
+    },
+    {
+      "Id": 20,
+      "Artist": "Production Categories",
+      "style": "Competitions",
+      "Position": ""
+    },
+    {
+      "Id": 21,
+      "Artist": "Production Categories",
+      "style": "Dancers & Choreographers",
+      "Position": ""
+    },
+    {
+      "Id": 22,
+      "Artist": "Production Categories",
+      "style": "Film Festivals",
+      "Position": ""
+    },
+    {
+      "Id": 23,
+      "Artist": "Production Categories",
+      "style": "Groups & Workshops",
+      "Position": ""
+    },
+    {
+      "Id": 24,
+      "Artist": "Production Categories",
+      "style": "Multimedia & Online",
+      "Position": ""
+    },
+    {
+      "Id": 25,
+      "Artist": "Production Categories",
+      "style": "Musicians & Composers",
+      "Position": ""
+    },
+    {
+      "Id": 26,
+      "Artist": "Production Categories",
+      "style": "Nonunion Musicals",
+      "Position": ""
+    },
+    {
+      "Id": 27,
+      "Artist": "Production Categories",
+      "style": "Nonunion TV/Video",
+      "Position": ""
+    },
+    {
+      "Id": 28,
+      "Artist": "Production Categories",
+      "style": "Singers",
+      "Position": ""
+    },
+    {
+      "Id": 29,
+      "Artist": "Production Categories",
+      "style": "Student Film",
+      "Position": ""
+    },
+    {
+      "Id": 30,
+      "Artist": "Production Categories",
+      "style": "Tradeshows & Events",
+      "Position": ""
+    },
+    {
+      "Id": 31,
+      "Artist": "Production Categories",
+      "style": "Union Film",
+      "Position": ""
+    },
+    {
+      "Id": 32,
+      "Artist": "Production Categories",
+      "style": "Union Stage",
+      "Position": ""
+    },
+    {
+      "Id": 33,
+      "Artist": "Production Categories",
+      "style": "Union/Nonunion Film",
+      "Position": ""
+    },
+    {
+      "Id": 34,
+      "Artist": "Production Categories",
+      "style": "Union/Nonunion Stage",
+      "Position": ""
+    },
+    {
+      "Id": 35,
+      "Artist": "Production Categories",
+      "style": "Voiceovers & Radio",
+      "Position": ""
+    }
+  ]
+}

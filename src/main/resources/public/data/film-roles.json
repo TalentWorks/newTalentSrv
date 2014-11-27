@@ -1,0 +1,54 @@
+{
+  "film-roles": [
+    {
+      "Id": 1,
+      "Name": "Lead",
+      "Position": ""
+    },
+    {
+      "Id": 2,
+      "Name": "Principal",
+      "Position": ""
+    },
+    {
+      "Id": 3,
+      "Name": "Supporting",
+      "Position": ""
+    },
+    {
+      "Id": 4,
+      "Name": "Voice-Over",
+      "Position": ""
+    },
+    {
+      "Id": 5,
+      "Name": "Featured",
+      "Position": ""
+    },
+    {
+      "Id": 6,
+      "Name": "Extra",
+      "Position": ""
+    },
+    {
+      "Id": 7,
+      "Name": "Stunt",
+      "Position": ""
+    },
+    {
+      "Id": 8,
+      "Name": "Stand-in",
+      "Position": ""
+    },
+    {
+      "Id": 9,
+      "Name": "Body Double",
+      "Position": ""
+    },
+    {
+      "Id": 10,
+      "Name": "Stunt Double",
+      "Position": ""
+    }
+  ]
+}

@@ -1,0 +1,404 @@
+{
+  "religion": [
+    {
+      "Id": 1,
+      "name": "Adventism",
+      "Position": ""
+    },
+    {
+      "Id": 2,
+      "name": "Ahmadiyya",
+      "Position": ""
+    },
+    {
+      "Id": 3,
+      "name": "Alawites",
+      "Position": ""
+    },
+    {
+      "Id": 4,
+      "name": "Anabaptists",
+      "Position": ""
+    },
+    {
+      "Id": 5,
+      "name": "Anglican",
+      "Position": ""
+    },
+    {
+      "Id": 6,
+      "name": "Argenteum Astrum",
+      "Position": ""
+    },
+    {
+      "Id": 7,
+      "name": "Aztec mythology",
+      "Position": ""
+    },
+    {
+      "Id": 8,
+      "name": "Babylonian and Assyrian religion",
+      "Position": ""
+    },
+    {
+      "Id": 9,
+      "name": "Baptists",
+      "Position": ""
+    },
+    {
+      "Id": 10,
+      "name": "Black Hebrews",
+      "Position": ""
+    },
+    {
+      "Id": 11,
+      "name": "Buddists",
+      "Position": ""
+    },
+    {
+      "Id": 12,
+      "name": "Candomble",
+      "Position": ""
+    },
+    {
+      "Id": 13,
+      "name": "Chinese mythology",
+      "Position": ""
+    },
+    {
+      "Id": 14,
+      "name": "Church of All Worlds",
+      "Position": ""
+    },
+    {
+      "Id": 15,
+      "name": "Church of Jesus Christ Christian",
+      "Position": ""
+    },
+    {
+      "Id": 16,
+      "name": "Church of Jesus Christ of Latter Day Saints",
+      "Position": ""
+    },
+    {
+      "Id": 17,
+      "name": "Church of Scientology",
+      "Position": ""
+    },
+    {
+      "Id": 18,
+      "name": "Church of the Universe (marijuana sacrament)",
+      "Position": ""
+    },
+    {
+      "Id": 19,
+      "name": "Church Universal and Triumphant",
+      "Position": ""
+    },
+    {
+      "Id": 20,
+      "name": "Confucianism",
+      "Position": ""
+    },
+    {
+      "Id": 21,
+      "name": "Conservative Judaism (Masorti)",
+      "Position": ""
+    },
+    {
+      "Id": 22,
+      "name": "Crypto Jews",
+      "Position": ""
+    },
+    {
+      "Id": 23,
+      "name": "Dances of Universal Peace",
+      "Position": ""
+    },
+    {
+      "Id": 24,
+      "name": "Deobandi",
+      "Position": ""
+    },
+    {
+      "Id": 25,
+      "name": "Druidry (Celtic Religion)",
+      "Position": ""
+    },
+    {
+      "Id": 26,
+      "name": "Faery Wicca",
+      "Position": ""
+    },
+    {
+      "Id": 27,
+      "name": "Friends of the Western Buddhist Order",
+      "Position": ""
+    },
+    {
+      "Id": 28,
+      "name": "Golden Dawn",
+      "Position": ""
+    },
+    {
+      "Id": 29,
+      "name": "Greek mythology",
+      "Position": ""
+    },
+    {
+      "Id": 30,
+      "name": "Hare Krishna",
+      "Position": ""
+    },
+    {
+      "Id": 31,
+      "name": "Hassidic Judaism",
+      "Position": ""
+    },
+    {
+      "Id": 32,
+      "name": "Hinduism",
+      "Position": ""
+    },
+    {
+      "Id": 33,
+      "name": "Hoa Hao",
+      "Position": ""
+    },
+    {
+      "Id": 34,
+      "name": "Holiness movement",
+      "Position": ""
+    },
+    {
+      "Id": 35,
+      "name": "Islam",
+      "Position": ""
+    },
+    {
+      "Id": 36,
+      "name": "Jehovah's Witness",
+      "Position": ""
+    },
+    {
+      "Id": 37,
+      "name": "Johrei or Reiki",
+      "Position": ""
+    },
+    {
+      "Id": 38,
+      "name": "Judeo-Paganism",
+      "Position": ""
+    },
+    {
+      "Id": 39,
+      "name": "Karaite Judaism",
+      "Position": ""
+    },
+    {
+      "Id": 40,
+      "name": "Kardecist Spiritism",
+      "Position": ""
+    },
+    {
+      "Id": 41,
+      "name": "Kongo religions",
+      "Position": ""
+    },
+    {
+      "Id": 42,
+      "name": "Law of One",
+      "Position": ""
+    },
+    {
+      "Id": 43,
+      "name": "Lutherans",
+      "Position": ""
+    },
+    {
+      "Id": 44,
+      "name": "Maliki",
+      "Position": ""
+    },
+    {
+      "Id": 45,
+      "name": "Methodists",
+      "Position": ""
+    },
+    {
+      "Id": 46,
+      "name": "Modern Orthodox Judaism",
+      "Position": ""
+    },
+    {
+      "Id": 47,
+      "name": "Modern Orthodox Judaism",
+      "Position": ""
+    },
+    {
+      "Id": 48,
+      "name": "Mormonism",
+      "Position": ""
+    },
+    {
+      "Id": 49,
+      "name": "Nation of Islam",
+      "Position": ""
+    },
+    {
+      "Id": 50,
+      "name": "Native American Church",
+      "Position": ""
+    },
+    {
+      "Id": 51,
+      "name": "Nauruan indigenous religion",
+      "Position": ""
+    },
+    {
+      "Id": 52,
+      "name": "Nazarenes",
+      "Position": ""
+    },
+    {
+      "Id": 53,
+      "name": "Nestorianism",
+      "Position": ""
+    },
+    {
+      "Id": 54,
+      "name": "Oriental Orthodoxy (Monophysitism)",
+      "Position": ""
+    },
+    {
+      "Id": 55,
+      "name": "Orisha religions",
+      "Position": ""
+    },
+    {
+      "Id": 56,
+      "name": "Orthodox Judaism",
+      "Position": ""
+    },
+    {
+      "Id": 57,
+      "name": "Pentecostals",
+      "Position": ""
+    },
+    {
+      "Id": 58,
+      "name": "Presbyterianism",
+      "Position": ""
+    },
+    {
+      "Id": 59,
+      "name": "Process Church of the Final Judgement",
+      "Position": ""
+    },
+    {
+      "Id": 60,
+      "name": "Purva mimamsa",
+      "Position": ""
+    },
+    {
+      "Id": 61,
+      "name": "Rastafarians",
+      "Position": ""
+    },
+    {
+      "Id": 62,
+      "name": "Reconstructionist Judaism",
+      "Position": ""
+    },
+    {
+      "Id": 63,
+      "name": "Reformed",
+      "Position": ""
+    },
+    {
+      "Id": 64,
+      "name": "Roman Catholicism",
+      "Position": ""
+    },
+    {
+      "Id": 65,
+      "name": "Samaritans",
+      "Position": ""
+    },
+    {
+      "Id": 66,
+      "name": "Satanism",
+      "Position": ""
+    },
+    {
+      "Id": 67,
+      "name": "Seventh Day Adventist",
+      "Position": ""
+    },
+    {
+      "Id": 68,
+      "name": "Shafi'i",
+      "Position": ""
+    },
+    {
+      "Id": 69,
+      "name": "Shiite",
+      "Position": ""
+    },
+    {
+      "Id": 70,
+      "name": "Society of Friends (Quakers)",
+      "Position": ""
+    },
+    {
+      "Id": 71,
+      "name": "Spiritualism",
+      "Position": ""
+    },
+    {
+      "Id": 72,
+      "name": "Sufism",
+      "Position": ""
+    },
+    {
+      "Id": 73,
+      "name": "Transcendental Meditation",
+      "Position": ""
+    },
+    {
+      "Id": 74,
+      "name": "Typhonian Ordo Templi Orientis",
+      "Position": ""
+    },
+    {
+      "Id": 75,
+      "name": "Unification Church",
+      "Position": ""
+    },
+    {
+      "Id": 76,
+      "name": "Universal Life Church",
+      "Position": ""
+    },
+    {
+      "Id": 77,
+      "name": "Vedanta Society",
+      "Position": ""
+    },
+    {
+      "Id": 78,
+      "name": "Wahhabi",
+      "Position": ""
+    },
+    {
+      "Id": 79,
+      "name": "Wicca",
+      "Position": ""
+    },
+    {
+      "Id": 80,
+      "name": "Zaiddiyah",
+      "Position": ""
+    }
+  ]
+}

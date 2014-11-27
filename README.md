@@ -40,6 +40,14 @@ Some API calls require clients to provide authentication using HTTP Basic authen
 
 Where *&lt;token>* contains the Base64 encoded user's credentials (See [RFC 2617] (http://tools.ietf.org/html/rfc2617) for details)
 
+## Get listbox data
+The API keeps a set of json files with the data to populate the UI list and combo boxes.
+Use a GET to /data/<filename.json> to retrieve any of those files.
+
+For example:
+
+    GET /data/acting-interest.json
+    
 ## Get list of all users
 **Request**
 
