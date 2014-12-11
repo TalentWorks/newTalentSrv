@@ -8,14 +8,20 @@ import com.talent.api.Controllers.UsersController;
 import org.vertx.java.core.json.JsonObject;
 import org.vertx.java.platform.Verticle;
 
-//import com.jetdrone.vertx.yoke.extras.middleware.Cors;
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
 
 public class HttpRouter extends Verticle {
   public void start() {
+
+    Set<String> allowedMethods = new HashSet<>(Arrays.asList("GET", "DELETE", "PUT", "POST"));
+    Set<String> allowedHeaders = new HashSet<>(Arrays.asList("Authorization"));
+
     Yoke yoke = new Yoke(vertx)
         .use(new ErrorHandler(false))                     // Handle errors. See http://pmlopes.github.io/yoke/ErrorHandler.html
         .use(new Limit(4096))                             // Limit size of request body
-        .use(new Cors(null, null, null, null, false))     // Enable CORS for all origins
+        .use(new Cors(null, allowedMethods, allowedHeaders, null, false))     // Enable CORS for all origins
         .use(new Logger())                                // Log requests
         .use(new Static("public", 180, false, false))
         .use(new BodyParser());                           // Parse request body

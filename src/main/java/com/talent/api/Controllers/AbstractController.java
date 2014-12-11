@@ -24,8 +24,8 @@ public class AbstractController implements IController {
       case "DELETE": delete(req);break;
       case "GET": getItem(req);break;
       case "HEAD": req.response().end();break;
-      case "POST": post(req);break;
-      case "PUT": put(req);break;
+      case "POST": notAllowed(req);break;
+      case "PUT": checkBodyHeaders(req); put(req);break;
       default: notAllowed(req);
     }
   }
@@ -36,7 +36,7 @@ public class AbstractController implements IController {
       case "DELETE": notAllowed(req); break;
       case "GET": getCollection(req);break;
       case "HEAD": req.response().end();break;
-      case "POST": post(req);break;
+      case "POST": checkBodyHeaders(req); post(req);break;
       case "PUT": notAllowed(req); break;
       default: notAllowed(req);
     }
@@ -64,5 +64,21 @@ public class AbstractController implements IController {
 
   public void notAllowed(YokeRequest req) {
     req.response().setStatusCode(405).end();
+  }
+
+  private void checkBodyHeaders(YokeRequest req) {
+    if (!req.headers().contains("Content-Type")) {
+      req.response().setStatusCode(400).setStatusMessage("Content-Type header missing").end();
+      return;
+    }
+
+    if (!req.headers().get("Content-Type").contains("json")) {
+      req.response().setStatusCode(415).setStatusMessage("Unsupported Content-Type: "
+          + req.headers().get("Content-Type")
+          + ". Verify your request includes the Content-Type header and its value is a valid JSON mime type."
+      ).end();
+      return;
+    }
+
   }
 }
